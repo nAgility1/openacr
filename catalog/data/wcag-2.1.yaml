@@ -13,7 +13,7 @@ standard:
       ]
 chapters:
   - id: success_criteria_level_a
-    label: "Table 1: Success Criteria, Level A"
+    label: "Table 1: Success Criteria, Level Web"
     short_label: A
     order: 1
     criteria:
@@ -21,10 +21,11 @@ chapters:
         handle: Non-text Content
         alt_id: non-text-content
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - meaningful-image
+          - decorative-image
+          - captcha
+          - image-text
+          - audible-cues
       - id: 1.2.1
         handle: Audio-only and Video-only (Prerecorded)
         alt_id: audio-only-and-video-only-prerecorded
@@ -72,15 +73,12 @@ chapters:
           - web
           - electronic-docs
           - software
-          - authoring-tool
+          - authoring-tool         
       - id: 1.4.1
         handle: Use of Color
         alt_id: use-of-color
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - color
       - id: 1.4.2
         handle: Audio Control
         alt_id: audio-control
@@ -89,30 +87,26 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
+      - id: 1.4.13
+        handle: Content on Hover or Focus
+        alt_id: content-on-hover-or-focus
+        components:
+          - content-on-hover-or-focus
       - id: 2.1.1
         handle: Keyboard
         alt_id: keyboard
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - keyboard-access
       - id: 2.1.2
         handle: No Keyboard Trap
         alt_id: no-keyboard-trap
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - no-keyboard-trap
       - id: 2.1.4
         handle: Character Key Shortcuts
         alt_id: character-key-shortcuts
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - key-shortcuts
       - id: 2.2.1
         handle: Timing Adjustable
         alt_id: timing-adjustable
@@ -141,10 +135,8 @@ chapters:
         handle: Bypass Blocks
         alt_id: bypass-blocks
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - focus-visible
+          - bypass-blocks
       - id: 2.4.2
         handle: Page Titled
         alt_id: page-titled
@@ -157,10 +149,7 @@ chapters:
         handle: Focus Order
         alt_id: focus-order
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - focus-order
       - id: 2.4.4
         handle: Link Purpose (In Context)
         alt_id: link-purpose-in-context
@@ -169,6 +158,15 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
+      - id: 2.4.7
+        handle: Focus Visible
+        alt_id: focus-visible
+        components:
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
+          - focus-visible
       - id: 2.5.1
         handle: Pointer Gestures
         alt_id: pointer-gestures
@@ -213,10 +211,7 @@ chapters:
         handle: On Focus
         alt_id: on-focus
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - on-focus
       - id: 3.2.2
         handle: On Input
         alt_id: on-input
@@ -318,6 +313,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
+          - image-text
       - id: 1.4.10
         handle: Reflow
         alt_id: reflow
@@ -386,18 +382,12 @@ chapters:
         handle: Consistent Navigation
         alt_id: consistent-navigation
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - consistent-navigation
       - id: 3.2.4
         handle: Consistent Identification
         alt_id: consistent-identification
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - consistent-identification
       - id: 3.3.3
         handle: Error Suggestion
         alt_id: error-suggestion

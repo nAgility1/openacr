@@ -77,10 +77,7 @@ chapters:
         handle: Use of Color
         alt_id: use-of-color
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - color
       - id: 1.4.2
         handle: Audio Control
         alt_id: audio-control
@@ -141,10 +138,7 @@ chapters:
         handle: Bypass Blocks
         alt_id: bypass-blocks
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - bypass-blocks
       - id: 2.4.2
         handle: Page Titled
         alt_id: page-titled
@@ -269,10 +263,11 @@ chapters:
         handle: Name, Role, Value
         alt_id: name-role-value
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - control-name
+          - control-role
+          - control-state
+          - contol-value
+          - meaningful-image
   - id: success_criteria_level_aa
     label: "Table 2: Success Criteria, Level AA"
     short_label: AA
