@@ -33,18 +33,31 @@ components:
     url: https://ictbaseline.access-board.gov/web-baselines/03Noninterference/#3a-test-procedure-for-non-interference
   - id: bypass-blocks
     label: Bypass Blocks
+    url: https://ictbaseline.access-board.gov/web-baselines/04RepetitiveContent/#4a-test-procedure-for-bypass-blocks
   - id: consistent-navigation
     label: Consistent Navigation
+    url: https://ictbaseline.access-board.gov/web-baselines/04RepetitiveContent/#4b-test-procedure-for-consistent-navigation
   - id: consistent-identification
     label: Consistent Identification
+    url: https://ictbaseline.access-board.gov/web-baselines/04RepetitiveContent/#4c-test-procedure-for-consistent-identification
   - id: control-name
     label: Control Name
+    url: https://ictbaseline.access-board.gov/web-baselines/05Controls/#5a-test-procedure-for-control-name
   - id: control-role
     label: Control Role
+    url: https://ictbaseline.access-board.gov/web-baselines/05Controls/#5b-test-procedure-for-control-role
   - id: control-state
     label: Control State
+    url: https://ictbaseline.access-board.gov/web-baselines/05Controls/#5c-test-procedure-for-control-state
   - id: control-value
     label: Control Value
+    url: https://ictbaseline.access-board.gov/web-baselines/05Controls/#5d-test-procedure-for-control-value
+  - id: label-in-name
+    label: Label in Name
+    url: https://ictbaseline.access-board.gov/web-baselines/05Controls/#5e-test-procedure-for-label-in-name
+  - id: status-messages
+    label: Status Messages
+    url: https://ictbaseline.access-board.gov/web-baselines/05Controls/#5f-test-procedure-for-status-messages
   - id: meaningful-image
     label: Meaningful Image
   - id: decorative-image
