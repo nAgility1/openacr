@@ -11,20 +11,26 @@ components:
     label: Authoring Tool
   - id: keyboard-access
     label: Keyboard Access
+    url: https://ictbaseline.access-board.gov/web-baselines/01Keyboard/#1a-test-procedure-for-keyboard-access
   - id: no-keyboard-trap
     label: No Keyboard Trap
+    url: https://ictbaseline.access-board.gov/web-baselines/01Keyboard/#1b-test-procedure-for-no-keyboard-trap
   - id: key-shortcuts
     label: Key Shortcuts
   - id: focus-visible
     label: Focus Visible
+    URL: https://ictbaseline.access-board.gov/web-baselines/02FocusVisible/#2a-test-procedure-for-focus-visible
   - id: focus-order
     label: Focus Order
   - id: on-focus
+    url: https://ictbaseline.access-board.gov/web-baselines/02FocusVisible/#2b-test-procedure-for-focus-order
     label: On Focus
   - id: content-on-hover-or-focus
     label: Content on Hover or Focus
+    url: https://ictbaseline.access-board.gov/web-baselines/02FocusVisible/#2c-test-procedure-for-on-focus
   - id: non-interference
     label: Non Interference
+    url: https://ictbaseline.access-board.gov/web-baselines/03Noninterference/#3a-test-procedure-for-non-interference
   - id: bypass-blocks
     label: Bypass Blocks
   - id: consistent-navigation
