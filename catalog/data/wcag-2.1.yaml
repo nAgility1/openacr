@@ -95,19 +95,19 @@ chapters:
       - id: 2.1.1
         handle: Keyboard
         alt_id: keyboard
-        links: https://www.w3.org/WAI/WCAG22/Understanding/keyboard
+        url: https://www.w3.org/WAI/WCAG22/Understanding/keyboard
         components:
           - keyboard-access
       - id: 2.1.2
         handle: No Keyboard Trap
         alt_id: no-keyboard-trap
-        links: https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap
+        url: https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap
         components:
           - no-keyboard-trap
       - id: 2.1.4
         handle: Character Key Shortcuts
         alt_id: character-key-shortcuts
-        links: https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts
+        url: https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts
         components:
           - key-shortcuts
       - id: 2.2.1
@@ -137,7 +137,7 @@ chapters:
       - id: 2.4.1
         handle: Bypass Blocks
         alt_id: bypass-blocks
-        link: https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks
+        url: https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks
         components:
           - focus-visible
           - bypass-blocks
@@ -152,7 +152,7 @@ chapters:
       - id: 2.4.3
         handle: Focus Order
         alt_id: focus-order
-        link: https://www.w3.org/WAI/WCAG22/Understanding/focus-order
+        url: https://www.w3.org/WAI/WCAG22/Understanding/focus-order
         components:
           - focus-order
       - id: 2.4.4
@@ -166,7 +166,7 @@ chapters:
       - id: 2.4.7
         handle: Focus Visible
         alt_id: focus-visible
-        link: https://www.w3.org/WAI/WCAG22/Understanding/focus-visible
+        url: https://www.w3.org/WAI/WCAG22/Understanding/focus-visible
         components:
           - web
           - electronic-docs
@@ -216,7 +216,7 @@ chapters:
       - id: 3.2.1
         handle: On Focus
         alt_id: on-focus
-        link: https://www.w3.org/WAI/WCAG22/Understanding/on-focus
+        url: https://www.w3.org/WAI/WCAG22/Understanding/on-focus
         components:
           - on-focus
       - id: 3.2.2
@@ -348,7 +348,7 @@ chapters:
       - id: 1.4.13
         handle: Content on Hover or Focus
         alt_id: content-on-hover-or-focus
-        link: https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
+        url: https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
         components:
           - web
           - electronic-docs
