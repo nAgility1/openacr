@@ -104,10 +104,7 @@ chapters:
         handle: Use of Color
         alt_id: use-of-color
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - color
       - id: 1.4.2
         handle: Audio Control
         alt_id: audio-control
@@ -168,10 +165,7 @@ chapters:
         handle: Bypass Blocks
         alt_id: bypass-blocks
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - bypass-blocks
       - id: 2.4.2
         handle: Page Titled
         alt_id: page-titled
@@ -296,10 +290,11 @@ chapters:
         handle: Name, Role, Value
         alt_id: name-role-value
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - control-name
+          - control-role
+          - control-state
+          - contol-value
+          - meaningful-image
   - id: success_criteria_level_aa
     label: "Table 2: Success Criteria, Level AA"
     short_label: AA
@@ -2118,6 +2113,74 @@ components:
     label: Software
   - id: authoring-tool
     label: Authoring Tool
+  - id: keyboard-access
+    label: Keyboard Access
+  - id: no-keyboard-trap
+    label: No Keyboard Trap
+  - id: key-shortcuts
+    label: Key Shortcuts
+  - id: focus-visible
+    label: Focus Visible
+  - id: focus-order
+    label: Focus Order
+  - id: on-focus
+    label: On Focus
+  - id: content-on-hover-or-focus
+    label: Content on Hover or Focus
+  - id: non-interference
+    label: Non Interference
+  - id: bypass-blocks
+    label: Bypass Blocks
+  - id: consistent-navigation
+    label: Consistent Navigation
+  - id: consistent-identification
+    label: Consistent Identification
+  - id: control-name
+    label: Control Name
+  - id: control-role
+    label: Control Role
+  - id: control-state
+    label: Control State
+  - id: control-value
+    label: Control Value
+  - id: meaningful-image
+    label: Meaningful Image
+  - id: decorative-image
+    label: Decorative Image
+  - id: captcha
+    label: CAPTCHA
+  - id: image-text
+    label: Image Text
+  - id: color
+    label: Color
+  - id: sensory-characteristics
+    label: Sensory Characteristics
+  - id: audible-cues
+    label: Audible Cues
+  - id: contrast-minimum
+    label: Contrast (Minimum)
+  - id: graphical-contrast
+    label: Graphical Contrast
+  - id: flashes
+    label: Flashes
+  - id: form-name
+    label: Form Name
+  - id: form-descriptive-label
+    label: Form Descriptive Label
+  - id: on-input
+    label: On Input
+  - id: error-identification
+    label: Error Identification
+  - id: form-has-label
+    label: Form Has Label
+  - id: error-suggestion
+    label: Error Suggestion
+  - id: error-prevention
+    label: Error Prevention
+  - id: input-purpose
+    label: Input Purpose
+  - id: page-titled
+    label: Page Titled
   - id: none
     label: ""
 terms:
