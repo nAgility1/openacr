@@ -22,7 +22,7 @@ standards:
       - support_documentation_and_services
 chapters:
   - id: success_criteria_level_a
-    label: "Table 1: Success Criteria, Level A"
+    label: "Table 1: Success Criteria, Level Web"
     short_label: A
     order: 1
     criteria:
@@ -30,10 +30,11 @@ chapters:
         handle: Non-text Content
         alt_id: non-text-content
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - meaningful-image
+          - decorative-image
+          - captcha
+          - image-text
+          - audible-cues
       - id: 1.2.1
         handle: Audio-only and Video-only (Prerecorded)
         alt_id: audio-only-and-video-only-prerecorded
@@ -86,10 +87,7 @@ chapters:
         handle: Use of Color
         alt_id: use-of-color
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - color
       - id: 1.4.2
         handle: Audio Control
         alt_id: audio-control
@@ -98,30 +96,29 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
+      - id: 1.4.13
+        handle: Content on Hover or Focus
+        alt_id: content-on-hover-or-focus
+        components:
+          - content-on-hover-or-focus
       - id: 2.1.1
         handle: Keyboard
         alt_id: keyboard
+        url: https://www.w3.org/WAI/WCAG22/Understanding/keyboard
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - keyboard-access
       - id: 2.1.2
         handle: No Keyboard Trap
         alt_id: no-keyboard-trap
+        url: https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - no-keyboard-trap
       - id: 2.1.4
         handle: Character Key Shortcuts
         alt_id: character-key-shortcuts
+        url: https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - key-shortcuts
       - id: 2.2.1
         handle: Timing Adjustable
         alt_id: timing-adjustable
@@ -149,11 +146,10 @@ chapters:
       - id: 2.4.1
         handle: Bypass Blocks
         alt_id: bypass-blocks
+        url: https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - focus-visible
+          - bypass-blocks
       - id: 2.4.2
         handle: Page Titled
         alt_id: page-titled
@@ -165,11 +161,9 @@ chapters:
       - id: 2.4.3
         handle: Focus Order
         alt_id: focus-order
+        url: https://www.w3.org/WAI/WCAG22/Understanding/focus-order
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - focus-order
       - id: 2.4.4
         handle: Link Purpose (In Context)
         alt_id: link-purpose-in-context
@@ -178,6 +172,16 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
+      - id: 2.4.7
+        handle: Focus Visible
+        alt_id: focus-visible
+        url: https://www.w3.org/WAI/WCAG22/Understanding/focus-visible
+        components:
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
+          - focus-visible
       - id: 2.5.1
         handle: Pointer Gestures
         alt_id: pointer-gestures
@@ -221,11 +225,9 @@ chapters:
       - id: 3.2.1
         handle: On Focus
         alt_id: on-focus
+        url: https://www.w3.org/WAI/WCAG22/Understanding/on-focus
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - on-focus
       - id: 3.2.2
         handle: On Input
         alt_id: on-input
@@ -327,6 +329,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
+          - image-text
       - id: 1.4.10
         handle: Reflow
         alt_id: reflow
@@ -354,6 +357,7 @@ chapters:
       - id: 1.4.13
         handle: Content on Hover or Focus
         alt_id: content-on-hover-or-focus
+        url: https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
         components:
           - web
           - electronic-docs
@@ -395,18 +399,12 @@ chapters:
         handle: Consistent Navigation
         alt_id: consistent-navigation
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - consistent-navigation
       - id: 3.2.4
         handle: Consistent Identification
         alt_id: consistent-identification
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - consistent-identification
       - id: 3.3.3
         handle: Error Suggestion
         alt_id: error-suggestion
@@ -1166,6 +1164,74 @@ components:
     label: Software
   - id: authoring-tool
     label: Authoring Tool
+  - id: keyboard-access
+    label: Keyboard Access
+  - id: no-keyboard-trap
+    label: No Keyboard Trap
+  - id: key-shortcuts
+    label: Key Shortcuts
+  - id: focus-visible
+    label: Focus Visible
+  - id: focus-order
+    label: Focus Order
+  - id: on-focus
+    label: On Focus
+  - id: content-on-hover-or-focus
+    label: Content on Hover or Focus
+  - id: non-interference
+    label: Non Interference
+  - id: bypass-blocks
+    label: Bypass Blocks
+  - id: consistent-navigation
+    label: Consistent Navigation
+  - id: consistent-identification
+    label: Consistent Identification
+  - id: control-name
+    label: Control Name
+  - id: control-role
+    label: Control Role
+  - id: control-state
+    label: Control State
+  - id: control-value
+    label: Control Value
+  - id: meaningful-image
+    label: Meaningful Image
+  - id: decorative-image
+    label: Decorative Image
+  - id: captcha
+    label: CAPTCHA
+  - id: image-text
+    label: Image Text
+  - id: color
+    label: Color
+  - id: sensory-characteristics
+    label: Sensory Characteristics
+  - id: audible-cues
+    label: Audible Cues
+  - id: contrast-minimum
+    label: Contrast (Minimum)
+  - id: graphical-contrast
+    label: Graphical Contrast
+  - id: flashes
+    label: Flashes
+  - id: form-name
+    label: Form Name
+  - id: form-descriptive-label
+    label: Form Descriptive Label
+  - id: on-input
+    label: On Input
+  - id: error-identification
+    label: Error Identification
+  - id: form-has-label
+    label: Form Has Label
+  - id: error-suggestion
+    label: Error Suggestion
+  - id: error-prevention
+    label: Error Prevention
+  - id: input-purpose
+    label: Input Purpose
+  - id: page-titled
+    label: Page Titled
   - id: none
     label: ""
 terms:

@@ -31,7 +31,7 @@ const argv = yargs_1.default
 if (argv.catalog) {
     const catalog = argv.catalog;
     // Load data files.
-    const wcag20 = js_yaml_1.default.load(fs_1.default.readFileSync("./catalog/data/wcag-2.0.yaml").toString());
+    // const wcag20 = js_yaml_1.default.load(fs_1.default.readFileSync("./catalog/data/wcag-2.0.yaml").toString());
     const section508 = js_yaml_1.default.load(fs_1.default.readFileSync("./catalog/data/508.yaml").toString());
     const components = js_yaml_1.default.load(fs_1.default.readFileSync("./catalog/data/components.yaml").toString());
     const terms = js_yaml_1.default.load(fs_1.default.readFileSync("./catalog/data/terms.yaml").toString());
