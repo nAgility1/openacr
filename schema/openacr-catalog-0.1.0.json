@@ -99,6 +99,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "url": {
+                  "type": "string"
                 }
               },
               "required": ["id", "handle", "alt_id"]
@@ -118,11 +121,18 @@
             "description": "Component ID.",
             "type": "string"
           },
+          "alt_id": {
+            "description": "Component alternate ID.",
+            "type": "string"
+          },
           "label": {
             "description": "Human-readable label.",
             "type": "string"
           },
           "description": {
+            "type": "string"
+          },
+          "url": {
             "type": "string"
           }
         },
