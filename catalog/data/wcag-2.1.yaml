@@ -17,6 +17,30 @@ chapters:
     short_label: A
     order: 1
     criteria:
+      - id: 2.1.1
+        handle: Keyboard
+        alt_id: keyboard
+        section_id: 1
+        section: Keyboard Accessible
+        url: https://www.w3.org/WAI/WCAG22/Understanding/keyboard
+        components:
+          - keyboard-access
+      - id: 2.1.2
+        handle: No Keyboard Trap
+        alt_id: no-keyboard-trap
+        section_id: 1
+        section: Keyboard Accessible
+        url: https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap
+        components:
+          - no-keyboard-trap
+      - id: 2.1.4
+        handle: Character Key Shortcuts
+        alt_id: character-key-shortcuts
+        section_id: 1
+        section: Keyboard Accessible
+        url: https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts
+        components:
+          - key-shortcuts
       - id: 1.1.1
         handle: Non-text Content
         alt_id: non-text-content
@@ -92,24 +116,6 @@ chapters:
         alt_id: content-on-hover-or-focus
         components:
           - content-on-hover-or-focus
-      - id: 2.1.1
-        handle: Keyboard
-        alt_id: keyboard
-        url: https://www.w3.org/WAI/WCAG22/Understanding/keyboard
-        components:
-          - keyboard-access
-      - id: 2.1.2
-        handle: No Keyboard Trap
-        alt_id: no-keyboard-trap
-        url: https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap
-        components:
-          - no-keyboard-trap
-      - id: 2.1.4
-        handle: Character Key Shortcuts
-        alt_id: character-key-shortcuts
-        url: https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts
-        components:
-          - key-shortcuts
       - id: 2.2.1
         handle: Timing Adjustable
         alt_id: timing-adjustable
