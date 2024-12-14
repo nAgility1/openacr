@@ -1,4 +1,4 @@
-title: VPAT® 2.5 WCAG 2.1 and Revised Section 508 Edition
+title: VPAT® 2.5 Revised Section 508 Edition
 lang: en
 standards:
   - id: wcag-2.1
@@ -22,43 +22,18 @@ standards:
       - support_documentation_and_services
 chapters:
   - id: success_criteria_level_a
-    label: "Table 1: Success Criteria, Level Web"
+    label: "Table 1: Success Criteria, Level A"
     short_label: A
     order: 1
     criteria:
-      - id: 2.1.1
-        handle: Keyboard
-        alt_id: keyboard
-        section_id: 1
-        section: Keyboard Accessible
-        url: https://www.w3.org/WAI/WCAG22/Understanding/keyboard
-        components:
-          - keyboard-access
-      - id: 2.1.2
-        handle: No Keyboard Trap
-        alt_id: no-keyboard-trap
-        section_id: 1
-        section: Keyboard Accessible
-        url: https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap
-        components:
-          - no-keyboard-trap
-      - id: 2.1.4
-        handle: Character Key Shortcuts
-        alt_id: character-key-shortcuts
-        section_id: 1
-        section: Keyboard Accessible
-        url: https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts
-        components:
-          - key-shortcuts
       - id: 1.1.1
         handle: Non-text Content
         alt_id: non-text-content
         components:
-          - meaningful-image
-          - decorative-image
-          - captcha
-          - image-text
-          - audible-cues
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
       - id: 1.2.1
         handle: Audio-only and Video-only (Prerecorded)
         alt_id: audio-only-and-video-only-prerecorded
@@ -111,7 +86,10 @@ chapters:
         handle: Use of Color
         alt_id: use-of-color
         components:
-          - color
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
       - id: 1.4.2
         handle: Audio Control
         alt_id: audio-control
@@ -120,11 +98,30 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.4.13
-        handle: Content on Hover or Focus
-        alt_id: content-on-hover-or-focus
+      - id: 2.1.1
+        handle: Keyboard
+        alt_id: keyboard
         components:
-          - content-on-hover-or-focus
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
+      - id: 2.1.2
+        handle: No Keyboard Trap
+        alt_id: no-keyboard-trap
+        components:
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
+      - id: 2.1.4
+        handle: Character Key Shortcuts
+        alt_id: character-key-shortcuts
+        components:
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
       - id: 2.2.1
         handle: Timing Adjustable
         alt_id: timing-adjustable
@@ -152,10 +149,11 @@ chapters:
       - id: 2.4.1
         handle: Bypass Blocks
         alt_id: bypass-blocks
-        url: https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks
         components:
-          - focus-visible
-          - bypass-blocks
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
       - id: 2.4.2
         handle: Page Titled
         alt_id: page-titled
@@ -167,9 +165,11 @@ chapters:
       - id: 2.4.3
         handle: Focus Order
         alt_id: focus-order
-        url: https://www.w3.org/WAI/WCAG22/Understanding/focus-order
         components:
-          - focus-order
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
       - id: 2.4.4
         handle: Link Purpose (In Context)
         alt_id: link-purpose-in-context
@@ -178,16 +178,6 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 2.4.7
-        handle: Focus Visible
-        alt_id: focus-visible
-        url: https://www.w3.org/WAI/WCAG22/Understanding/focus-visible
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-          - focus-visible
       - id: 2.5.1
         handle: Pointer Gestures
         alt_id: pointer-gestures
@@ -231,9 +221,11 @@ chapters:
       - id: 3.2.1
         handle: On Focus
         alt_id: on-focus
-        url: https://www.w3.org/WAI/WCAG22/Understanding/on-focus
         components:
-          - on-focus
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
       - id: 3.2.2
         handle: On Input
         alt_id: on-input
@@ -335,7 +327,6 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-          - image-text
       - id: 1.4.10
         handle: Reflow
         alt_id: reflow
@@ -363,7 +354,6 @@ chapters:
       - id: 1.4.13
         handle: Content on Hover or Focus
         alt_id: content-on-hover-or-focus
-        url: https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
         components:
           - web
           - electronic-docs
@@ -405,12 +395,18 @@ chapters:
         handle: Consistent Navigation
         alt_id: consistent-navigation
         components:
-          - consistent-navigation
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
       - id: 3.2.4
         handle: Consistent Identification
         alt_id: consistent-identification
         components:
-          - consistent-identification
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
       - id: 3.3.3
         handle: Error Suggestion
         alt_id: error-suggestion
