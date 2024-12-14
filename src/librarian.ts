@@ -32,9 +32,9 @@ if (argv.catalog) {
   const catalog = argv.catalog;
 
   // Load data files.
-  const wcag20 = yaml.load(
-    fs.readFileSync("./catalog/data/wcag-2.0.yaml").toString()
-  );
+  // const wcag20 = yaml.load(
+  //   fs.readFileSync("./catalog/data/wcag-2.0.yaml").toString()
+  // );
   const wcag21 = yaml.load(
     fs.readFileSync("./catalog/data/wcag-2.1.yaml").toString()
   );
@@ -79,7 +79,7 @@ if (argv.catalog) {
       );
 
       combined = createCatalog(
-        [wcag20, section508],
+        [wcag21, section508],
         components,
         terms,
         "VPAT® 2.5 Revised Section 508 Edition",
