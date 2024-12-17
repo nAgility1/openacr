@@ -29,7 +29,6 @@ chapters:
         handle: No Keyboard Trap
         alt_id: no-keyboard-trap
         section_id: 1
-        section: Keyboard Accessible
         url: https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap
         components:
           - no-keyboard-trap
@@ -37,10 +36,85 @@ chapters:
         handle: Character Key Shortcuts
         alt_id: character-key-shortcuts
         section_id: 1
-        section: Keyboard Accessible
         url: https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts
         components:
           - key-shortcuts
+      - id: 2.4.7
+        handle: Focus Visible
+        alt_id: focus-visible
+        section_id: 2
+        section: Focus
+        url: https://www.w3.org/WAI/WCAG22/Understanding/focus-visible
+        components:
+          - focus-visible
+      - id: 2.4.3
+        handle: Focus Order
+        alt_id: focus-order
+        section_id: 2
+        url: https://www.w3.org/WAI/WCAG22/Understanding/focus-order
+        components:
+          - focus-order
+      - id: 3.2.1
+        handle: On Focus
+        alt_id: on-focus
+        section_id: 2
+        url: https://www.w3.org/WAI/WCAG22/Understanding/on-focus
+        components:
+          - on-focus
+      - id: 1.4.13
+        handle: Content on Hover or Focus
+        alt_id: content-on-hover-or-focus
+        section_id: 2
+        url: https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
+        components:
+          - content-on-hover-or-focus
+      - id: 2.4.1
+        handle: Bypass Blocks
+        alt_id: bypass-blocks
+        section_id: 4
+        section: Repetitive Content
+        url: https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks
+        components:
+          - focus-visible
+          - bypass-blocks
+      - id: 3.2.3
+        handle: Consistent Navigation
+        alt_id: consistent-navigation
+        section_id: 4
+        url: https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation
+        components:
+          - consistent-navigation
+      - id: 3.2.4
+        handle: Consistent Identification
+        alt_id: consistent-identification
+        section_id: 4
+        url: https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification
+        components:
+          - consistent-identification
+      - id: 1.4.13
+        handle: Content on Hover or Focus
+        alt_id: content-on-hover-or-focus
+        url: https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
+        components:
+          - bypass-blocks
+      - id: 4.1.2
+        handle: Name, Role, Value
+        alt_id: name-role-value
+        section_id: 5
+        section: User Controls
+        url: https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+        components:
+          - control-name
+          - control-role
+          - control-state
+          - control-value
+      - id: 2.5.3
+        handle: Label in Name
+        alt_id: label-in-name
+        section_id: 5
+        url: https://www.w3.org/WAI/WCAG22/Understanding/label-in-name
+        components:
+          - label-in-name
       - id: 1.1.1
         handle: Non-text Content
         alt_id: non-text-content
@@ -111,11 +185,6 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.4.13
-        handle: Content on Hover or Focus
-        alt_id: content-on-hover-or-focus
-        components:
-          - content-on-hover-or-focus
       - id: 2.2.1
         handle: Timing Adjustable
         alt_id: timing-adjustable
@@ -139,14 +208,7 @@ chapters:
           - web
           - electronic-docs
           - software
-          - authoring-tool
-      - id: 2.4.1
-        handle: Bypass Blocks
-        alt_id: bypass-blocks
-        url: https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks
-        components:
-          - focus-visible
-          - bypass-blocks
+          - authoring-tool    
       - id: 2.4.2
         handle: Page Titled
         alt_id: page-titled
@@ -155,12 +217,6 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 2.4.3
-        handle: Focus Order
-        alt_id: focus-order
-        url: https://www.w3.org/WAI/WCAG22/Understanding/focus-order
-        components:
-          - focus-order
       - id: 2.4.4
         handle: Link Purpose (In Context)
         alt_id: link-purpose-in-context
@@ -169,16 +225,6 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 2.4.7
-        handle: Focus Visible
-        alt_id: focus-visible
-        url: https://www.w3.org/WAI/WCAG22/Understanding/focus-visible
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-          - focus-visible
       - id: 2.5.1
         handle: Pointer Gestures
         alt_id: pointer-gestures
@@ -190,14 +236,6 @@ chapters:
       - id: 2.5.2
         handle: Pointer Cancellation
         alt_id: pointer-cancellation
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.5.3
-        handle: Label in Name
-        alt_id: label-in-name
         components:
           - web
           - electronic-docs
@@ -219,12 +257,6 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 3.2.1
-        handle: On Focus
-        alt_id: on-focus
-        url: https://www.w3.org/WAI/WCAG22/Understanding/on-focus
-        components:
-          - on-focus
       - id: 3.2.2
         handle: On Input
         alt_id: on-input
@@ -252,14 +284,6 @@ chapters:
       - id: 4.1.1
         handle: Parsing
         alt_id: parsing
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 4.1.2
-        handle: Name, Role, Value
-        alt_id: name-role-value
         components:
           - web
           - electronic-docs
@@ -351,15 +375,6 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.4.13
-        handle: Content on Hover or Focus
-        alt_id: content-on-hover-or-focus
-        url: https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
       - id: 2.4.5
         handle: Multiple Ways
         alt_id: multiple-ways
@@ -392,16 +407,6 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 3.2.3
-        handle: Consistent Navigation
-        alt_id: consistent-navigation
-        components:
-          - consistent-navigation
-      - id: 3.2.4
-        handle: Consistent Identification
-        alt_id: consistent-identification
-        components:
-          - consistent-identification
       - id: 3.3.3
         handle: Error Suggestion
         alt_id: error-suggestion
