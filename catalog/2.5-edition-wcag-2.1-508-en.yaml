@@ -1,4 +1,4 @@
-title: VPAT® 2.5 Revised Section 508 Edition
+title: VPAT® 2.5 WCAG 2.1 and Revised Section 508 Edition
 lang: en
 standards:
   - id: wcag-2.1
@@ -22,18 +22,112 @@ standards:
       - support_documentation_and_services
 chapters:
   - id: success_criteria_level_a
-    label: "Table 1: Success Criteria, Level A"
+    label: "Table 1: Success Criteria, Level Web"
     short_label: A
     order: 1
     criteria:
+      - id: 2.1.1
+        handle: Keyboard-https://www.w3.org/WAI/WCAG22/Understanding/keyboard
+        alt_id: keyboard
+        description: 1. Keyboard Accessible
+        components:
+          - keyboard-access
+      - id: 2.1.2
+        handle: >-
+          No Keyboard
+          Trap-https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap
+        alt_id: no-keyboard-trap
+        components:
+          - no-keyboard-trap
+      - id: 2.1.4
+        handle: >-
+          Character Key
+          Shortcuts-https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts
+        alt_id: character-key-shortcuts
+        components:
+          - key-shortcuts
+      - id: 2.4.7
+        handle: >-
+          Focus
+          Visible-https://www.w3.org/WAI/WCAG22/Understanding/focus-visible
+        alt_id: focus-visible
+        description: 2. Focus
+        components:
+          - focus-visible
+      - id: 2.4.3
+        handle: Focus Order-https://www.w3.org/WAI/WCAG22/Understanding/focus-order
+        alt_id: focus-order
+        components:
+          - focus-order
+      - id: 3.2.1
+        handle: On Focus-https://www.w3.org/WAI/WCAG22/Understanding/on-focus
+        alt_id: on-focus
+        components:
+          - on-focus
+      - id: 1.4.13
+        handle: >-
+          Content on Hover or
+          Focus-https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
+        alt_id: content-on-hover-or-focus
+        components:
+          - content-on-hover-or-focus
+      - id: 2.4.1
+        handle: >-
+          Bypass
+          Blocks-https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks
+        alt_id: bypass-blocks
+        description: 4. Repetitive Content
+        components:
+          - focus-visible
+          - bypass-blocks
+      - id: 3.2.3
+        handle: >-
+          Consistent
+          Navigation-https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation
+        alt_id: consistent-navigation
+        components:
+          - consistent-navigation
+      - id: 3.2.4
+        handle: >-
+          Consistent
+          Identification-https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification
+        alt_id: consistent-identification
+        components:
+          - consistent-identification
+      - id: 1.4.13
+        handle: >-
+          Content on Hover or
+          Focus-https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
+        alt_id: content-on-hover-or-focus
+        components:
+          - bypass-blocks
+      - id: 4.1.2
+        handle: >-
+          Name, Role,
+          Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+        alt_id: name-role-value
+        description: 5. User Controls
+        components:
+          - control-name
+          - control-role
+          - control-state
+          - control-value
+      - id: 2.5.3
+        handle: >-
+          Label in
+          Name-https://www.w3.org/WAI/WCAG22/Understanding/label-in-name
+        alt_id: label-in-name
+        components:
+          - label-in-name
       - id: 1.1.1
         handle: Non-text Content
         alt_id: non-text-content
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - meaningful-image
+          - decorative-image
+          - captcha
+          - image-text
+          - audible-cues
       - id: 1.2.1
         handle: Audio-only and Video-only (Prerecorded)
         alt_id: audio-only-and-video-only-prerecorded
@@ -86,37 +180,10 @@ chapters:
         handle: Use of Color
         alt_id: use-of-color
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - color
       - id: 1.4.2
         handle: Audio Control
         alt_id: audio-control
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.1.1
-        handle: Keyboard
-        alt_id: keyboard
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.1.2
-        handle: No Keyboard Trap
-        alt_id: no-keyboard-trap
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.1.4
-        handle: Character Key Shortcuts
-        alt_id: character-key-shortcuts
         components:
           - web
           - electronic-docs
@@ -146,25 +213,9 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 2.4.1
-        handle: Bypass Blocks
-        alt_id: bypass-blocks
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
       - id: 2.4.2
         handle: Page Titled
         alt_id: page-titled
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.4.3
-        handle: Focus Order
-        alt_id: focus-order
         components:
           - web
           - electronic-docs
@@ -194,14 +245,6 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 2.5.3
-        handle: Label in Name
-        alt_id: label-in-name
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
       - id: 2.5.4
         handle: Motion Actuation
         alt_id: motion-actuation
@@ -213,14 +256,6 @@ chapters:
       - id: 3.1.1
         handle: Language of Page
         alt_id: language-of-page
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.2.1
-        handle: On Focus
-        alt_id: on-focus
         components:
           - web
           - electronic-docs
@@ -253,14 +288,6 @@ chapters:
       - id: 4.1.1
         handle: Parsing
         alt_id: parsing
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 4.1.2
-        handle: Name, Role, Value
-        alt_id: name-role-value
         components:
           - web
           - electronic-docs
@@ -327,6 +354,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
+          - image-text
       - id: 1.4.10
         handle: Reflow
         alt_id: reflow
@@ -346,14 +374,6 @@ chapters:
       - id: 1.4.12
         handle: Text Spacing
         alt_id: text-spacing
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.4.13
-        handle: Content on Hover or Focus
-        alt_id: content-on-hover-or-focus
         components:
           - web
           - electronic-docs
@@ -386,22 +406,6 @@ chapters:
       - id: 3.1.2
         handle: Language of Parts
         alt_id: language-of-parts
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.2.3
-        handle: Consistent Navigation
-        alt_id: consistent-navigation
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.2.4
-        handle: Consistent Identification
-        alt_id: consistent-identification
         components:
           - web
           - electronic-docs
@@ -1169,12 +1173,12 @@ components:
   - id: keyboard-access
     alt_id: 1.A
     label: Keyboard Access
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/01Keyboard/#1a-test-procedure-for-keyboard-access
   - id: no-keyboard-trap
     alt_id: 1.B
     label: No Keyboard Trap
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/01Keyboard/#1b-test-procedure-for-no-keyboard-trap
   - id: key-shortcuts
     alt-id: 1.C
@@ -1182,70 +1186,70 @@ components:
   - id: focus-visible
     alt_id: 2.A
     label: Focus Visible
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/02FocusVisible/#2a-test-procedure-for-focus-visible
   - id: focus-order
     alt_id: 2.B
     label: Focus Order
   - id: on-focus
     alt_id: 2.C
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/02FocusVisible/#2b-test-procedure-for-focus-order
     label: On Focus
   - id: content-on-hover-or-focus
     alt_id: 2.D
     label: Content on Hover or Focus
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/02FocusVisible/#2c-test-procedure-for-on-focus
   - id: non-interference
     label: Non Interference
     alt_id: 3.A
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/03Noninterference/#3a-test-procedure-for-non-interference
   - id: bypass-blocks
     alt_id: 4.A
     label: Bypass Blocks
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/04RepetitiveContent/#4a-test-procedure-for-bypass-blocks
   - id: consistent-navigation
     alt_id: 4.B
     label: Consistent Navigation
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/04RepetitiveContent/#4b-test-procedure-for-consistent-navigation
   - id: consistent-identification
     label: Consistent Identification
     alt_id: 4.C
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/04RepetitiveContent/#4c-test-procedure-for-consistent-identification
   - id: control-name
     alt_id: 5.A
     label: Control Name
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/05Controls/#5a-test-procedure-for-control-name
   - id: control-role
     alt_id: 5.B
     label: Control Role
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/05Controls/#5b-test-procedure-for-control-role
   - id: control-state
     alt_id: 5.C
     label: Control State
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/05Controls/#5c-test-procedure-for-control-state
   - id: control-value
     alt_id: 5.D
     label: Control Value
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/05Controls/#5d-test-procedure-for-control-value
   - id: label-in-name
     alt_id: 5.E
     label: Label in Name
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/05Controls/#5e-test-procedure-for-label-in-name
   - id: status-messages
     alt_id: 5.F
     label: Status Messages
-    url: >-
+    description: >-
       https://ictbaseline.access-board.gov/web-baselines/05Controls/#5f-test-procedure-for-status-messages
   - id: meaningful-image
     label: Meaningful Image
