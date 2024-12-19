@@ -18,101 +18,76 @@ chapters:
     order: 1
     criteria:
       - id: 2.1.1
-        handle: Keyboard
+        handle: Keyboard-https://www.w3.org/WAI/WCAG22/Understanding/keyboard
         alt_id: keyboard
-        section_id: 1
-        section: Keyboard Accessible
-        url: https://www.w3.org/WAI/WCAG22/Understanding/keyboard
+        description: 1. Keyboard Accessible
         components:
           - keyboard-access
       - id: 2.1.2
-        handle: No Keyboard Trap
+        handle: No Keyboard Trap-https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap
         alt_id: no-keyboard-trap
-        section_id: 1
-        url: https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap
         components:
           - no-keyboard-trap
       - id: 2.1.4
-        handle: Character Key Shortcuts
+        handle: Character Key Shortcuts-https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts
         alt_id: character-key-shortcuts
-        section_id: 1
-        url: https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts
         components:
           - key-shortcuts
       - id: 2.4.7
-        handle: Focus Visible
+        handle: Focus Visible-https://www.w3.org/WAI/WCAG22/Understanding/focus-visible
         alt_id: focus-visible
-        section_id: 2
-        section: Focus
-        url: https://www.w3.org/WAI/WCAG22/Understanding/focus-visible
+        description: 2. Focus
         components:
           - focus-visible
       - id: 2.4.3
-        handle: Focus Order
+        handle: Focus Order-https://www.w3.org/WAI/WCAG22/Understanding/focus-order
         alt_id: focus-order
-        section_id: 2
-        url: https://www.w3.org/WAI/WCAG22/Understanding/focus-order
         components:
           - focus-order
       - id: 3.2.1
-        handle: On Focus
+        handle: On Focus-https://www.w3.org/WAI/WCAG22/Understanding/on-focus
         alt_id: on-focus
-        section_id: 2
-        url: https://www.w3.org/WAI/WCAG22/Understanding/on-focus
         components:
           - on-focus
       - id: 1.4.13
-        handle: Content on Hover or Focus
+        handle: Content on Hover or Focus-https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
         alt_id: content-on-hover-or-focus
-        section_id: 2
-        url: https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
         components:
           - content-on-hover-or-focus
       - id: 2.4.1
-        handle: Bypass Blocks
+        handle: Bypass Blocks-https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks
         alt_id: bypass-blocks
-        section_id: 4
-        section: Repetitive Content
-        url: https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks
+        description: 4. Repetitive Content
         components:
           - focus-visible
           - bypass-blocks
       - id: 3.2.3
-        handle: Consistent Navigation
+        handle: Consistent Navigation-https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation
         alt_id: consistent-navigation
-        section_id: 4
-        url: https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation
         components:
           - consistent-navigation
       - id: 3.2.4
-        handle: Consistent Identification
+        handle: Consistent Identification-https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification
         alt_id: consistent-identification
-        section_id: 4
-        url: https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification
         components:
           - consistent-identification
       - id: 1.4.13
-        handle: Content on Hover or Focus
+        handle: Content on Hover or Focus-https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
         alt_id: content-on-hover-or-focus
-        url: https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
         components:
           - bypass-blocks
       - id: 4.1.2
-        handle: Name, Role, Value
+        handle: Name, Role, Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
         alt_id: name-role-value
-        section_id: 5
-        section: User Controls
-        url: https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+        description: 5. User Controls
         components:
           - control-name
           - control-role
           - control-state
           - control-value
       - id: 2.5.3
-        handle: Label in Name
+        handle: Label in Name-https://www.w3.org/WAI/WCAG22/Understanding/label-in-name
         alt_id: label-in-name
-        section_id: 5
-        url: https://www.w3.org/WAI/WCAG22/Understanding/label-in-name
         components:
           - label-in-name
       - id: 1.1.1

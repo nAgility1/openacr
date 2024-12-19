@@ -94,17 +94,6 @@
                 "description": {
                   "type": "string"
                 },
-                "section_id": {
-                  "description": "Section ID.",
-                  "type": "string"
-                },
-                "section": {
-                  "description": "Section header label.",
-                  "type": "string"
-                },
-                "url": {
-                  "type": "string"
-                },
                 "components": {
                   "type": "array",
                   "items": {
@@ -138,9 +127,6 @@
             "type": "string"
           },
           "description": {
-            "type": "string"
-          },
-          "url": {
             "type": "string"
           }
         },

@@ -39,19 +39,26 @@ function getChapters(catalogs: any): any {
 }
 
 function getStandards(catalogs: any): any {
+
   let standard: string[] = [];
   for (const index in catalogs) {
+    console.log("catalogs[index]:", JSON.stringify(catalogs[index], null, 2));
+
     if (!validateCatalogDataFiles(catalogs[index])) return;
     standard = standard.concat(catalogs[index].standard);
   }
+
   return standard;
 }
 
 function validateCatalogDataFiles(catalog: any): boolean {
   const catalogSchema = "openacr-catalog-0.1.0.json";
   const validCatalogResult = validateCatalog(catalog, catalogSchema);
-
+  // ** Expected to be true when valid.  **
   if (!validCatalogResult.result) {
+    console.error(
+      "Error: Invalid catalog data file: " + validCatalogResult.message
+    );
     return false;
   }
   return true;
