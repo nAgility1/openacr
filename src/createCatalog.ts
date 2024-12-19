@@ -39,15 +39,11 @@ function getChapters(catalogs: any): any {
 }
 
 function getStandards(catalogs: any): any {
-
   let standard: string[] = [];
   for (const index in catalogs) {
-    console.log("catalogs[index]:", JSON.stringify(catalogs[index], null, 2));
-
     if (!validateCatalogDataFiles(catalogs[index])) return;
     standard = standard.concat(catalogs[index].standard);
   }
-
   return standard;
 }
 
