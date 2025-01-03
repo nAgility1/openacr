@@ -76,17 +76,26 @@ components:
     label: Status Messages
     description: https://ictbaseline.access-board.gov/web-baselines/05Controls/#5f-test-procedure-for-status-messages
   - id: meaningful-image
+    alt_id: 6.A
     label: Meaningful Image
+    description: https://ictbaseline.access-board.gov/web-baselines/06Images/#6a-test-procedure-for-images-with-a-non-empty-text-alternative
   - id: decorative-image
+    alt_id: 6.B
     label: Decorative Image
+    description: https://ictbaseline.access-board.gov/web-baselines/06Images/#6b-test-procedure-for-images-with-an-empty-text-alternative
   - id: captcha
+    alt_id: 6.C
     label: CAPTCHA
+    description: https://ictbaseline.access-board.gov/web-baselines/06Images/#6c-test-procedure-for-captchas
   - id: image-text
     label: Image Text
+    description: https://ictbaseline.access-board.gov/web-baselines/06Images/#6d-test-procedure-for-images-of-text
   - id: color
     label: Color
+    description: https://ictbaseline.access-board.gov/web-baselines/07Sensory/#7a-test-procedure-for-use-of-color
   - id: sensory-characteristics
     label: Sensory Characteristics
+    description: https://ictbaseline.access-board.gov/web-baselines/07Sensory/#7b-test-procedure-for-sensory-characteristics
   - id: audible-cues
     label: Audible Cues
   - id: contrast-minimum
