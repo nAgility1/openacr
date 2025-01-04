@@ -130,6 +130,44 @@ chapters:
         alt_id: sensory-characteristics
         components:
           - sensory-characteristics
+      - id: 1.1.1
+        handle: Non-text Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
+        alt_id: non-text-content
+        components:
+          - audible-queues
+      - id: 1.4.3
+        handle: Contrast (Minimum)-https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum
+        alt_id: visual-audio-contrast-contrast
+        description: 8. Contrast
+        components:
+          - contrast-minimum
+      - id: 1.4.11
+        handle: Non-text Contrast-https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast
+        alt_id: non-text-contrast
+        components:
+          - graphical-contrast
+      - id: 2.3.1
+        handle: Three Flashes or Below Threshold-https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold
+        alt_id: three-flashes-or-below-threshold
+        description: 9. Flashing
+        components:
+          - flashes 
+      - id: 1.1.1
+        handle: Non-text Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
+        alt_id: non-text-content
+        description: 10. Forms
+        components:
+          - form-name
+      - id: 4.1.2
+        handle: Name, Role, Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+        alt_id: name-role-value
+        components:
+          - form-name
+      - id: 1.3.1
+        handle: Info and Relationships
+        alt_id: info-and-relationships
+        components:
+          - form-name
       - id: 1.2.1
         handle: Audio-only and Video-only (Prerecorded)
         alt_id: audio-only-and-video-only-prerecorded
@@ -149,14 +187,6 @@ chapters:
       - id: 1.2.3
         handle: Audio Description or Media Alternative (Prerecorded)
         alt_id: audio-description-or-media-alternative-prerecorded
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.3.1
-        handle: Info and Relationships
-        alt_id: info-and-relationships
         components:
           - web
           - electronic-docs

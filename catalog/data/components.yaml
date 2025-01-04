@@ -88,24 +88,36 @@ components:
     label: CAPTCHA
     description: https://ictbaseline.access-board.gov/web-baselines/06Images/#6c-test-procedure-for-captchas
   - id: image-text
+    alt_id: 6.D
     label: Image Text
     description: https://ictbaseline.access-board.gov/web-baselines/06Images/#6d-test-procedure-for-images-of-text
   - id: color
+    alt_id: 7.A
     label: Color
     description: https://ictbaseline.access-board.gov/web-baselines/07Sensory/#7a-test-procedure-for-use-of-color
   - id: sensory-characteristics
+    alt_id: 7.B
     label: Sensory Characteristics
     description: https://ictbaseline.access-board.gov/web-baselines/07Sensory/#7b-test-procedure-for-sensory-characteristics
   - id: audible-cues
+    alt_id: 7.C
     label: Audible Cues
+    description: https://ictbaseline.access-board.gov/web-baselines/07Sensory/#7c-test-procedure-for-audible-cues
   - id: contrast-minimum
+    alt_id: 8.A
     label: Contrast (Minimum)
+    description: https://ictbaseline.access-board.gov/web-baselines/08Contrast/#8a-test-procedure-for-contrast-minimum
   - id: graphical-contrast
     label: Graphical Contrast
+    description: https://ictbaseline.access-board.gov/web-baselines/08Contrast/#8b-test-procedure-for-graphical-contrast
   - id: flashes
+    alt_id: 9.A
     label: Flashes
+    description: https://ictbaseline.access-board.gov/web-baselines/09Flashing/#9a-test-procedure-for-three-flashes-or-below-threshold
   - id: form-name
+    alt_id: 10.A
     label: Form Name
+    description: https://ictbaseline.access-board.gov/web-baselines/10Forms/#10a-test-procedure-for-form-name
   - id: form-descriptive-label
     label: Form Descriptive Label
   - id: on-input
