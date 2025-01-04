@@ -217,7 +217,7 @@ chapters:
           - data-table-role
           - layout-table
       - id: 1.3.1
-        handle: Info and Relationships
+        handle: Info and Relationships-https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships
         alt_id: info-and-relationships
         components:
           - data-table-header-association
@@ -228,14 +228,14 @@ chapters:
         components:
           - heading-descriptive
       - id: 1.3.1
-        handle: Info and Relationships
+        handle: Info and Relationships-https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships
         alt_id: info-and-relationships
         components:
           - vis-heading-prog
           - prog-heading-vis
           - list
       - id: 2.4.4
-        handle: Link Purpose (In Context)
+        handle: Link Purpose (In Context)-https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context
         alt_id: link-purpose-in-context
         description: 14. Links
         components:
@@ -245,14 +245,28 @@ chapters:
         alt_id: name-role-value
         components:
           - link-purpose
+      - id: 3.1.1
+        handle: Language of Page-https://www.w3.org/WAI/WCAG22/Understanding/language-of-page
+        alt_id: language-of-page
+        description: 15. Language
+        components:
+          - language-page
+      - id: 3.1.2
+        handle: Language of Parts-https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts
+        alt_id: language-of-parts
+        components:
+          - language-part
       - id: 1.2.1
         handle: Audio-only and Video-only (Prerecorded)
         alt_id: audio-only-and-video-only-prerecorded
+        desscription: 16. Audio-Only and Video-Only 
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - audio-only-transcript
+          - video-only-transcript
+          - audio-media-alternative
+          - video-media-alternative
+      
+      
       - id: 1.2.2
         handle: Captions (Prerecorded)
         alt_id: captions-prerecorded

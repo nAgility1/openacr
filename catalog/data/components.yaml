@@ -182,5 +182,29 @@ components:
     alt_id: 14.A
     label: Link Purpose
     description: https://ictbaseline.access-board.gov/web-baselines/14Links/#14a-test-procedure-for-link-purpose-in-context
+  - id: language-page
+    alt_id: 15.A
+    label: Language of Page
+    description: https://ictbaseline.access-board.gov/web-baselines/15Language/#15a-test-procedure-for-language-of-page
+  - id: language-parts
+    alt_id: 15.B
+    label: Language of Parts
+    description: https://ictbaseline.access-board.gov/web-baselines/15Language/#15b-test-procedure-for-language-of-parts
+  - id: audio-only-transcript
+    alt_id: 16.A
+    label: Audio-Only Transcript
+    description: https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16a-test-procedure-for-audio-only-prerecorded
+    id: video-only-transcript
+    alt_id: 16.B
+    label: Video-Only Alt
+    description: https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16b-test-procedure-for-video-only-prerecorded
+  - id: audio-media-alternative
+    alt_id: 16.C
+    label: Audeo-Media Alternative
+    description: https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16c-test-procedure-for-audio-media-alternative-prerecorded 
+  - id: video-media-alternative
+    alt_id: 16.D
+    label: Video-Media Alternative
+    description: https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16d-test-procedure-for-video-media-alternative-prerecorded
   - id: none
     label: ""
