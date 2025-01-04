@@ -119,20 +119,68 @@ components:
     label: Form Name
     description: https://ictbaseline.access-board.gov/web-baselines/10Forms/#10a-test-procedure-for-form-name
   - id: form-descriptive-label
+    alt_id: 10.B
     label: Form Descriptive Label
+    description: https://ictbaseline.access-board.gov/web-baselines/10Forms/#10b-test-procedure-for-form-descriptive-label
   - id: on-input
+    alt_id: 10.C
     label: On Input
+    description: https://ictbaseline.access-board.gov/web-baselines/10Forms/#10c-test-procedure-for-on-input
   - id: error-identification
+    alt_id: 10.D
     label: Error Identification
+    description: https://ictbaseline.access-board.gov/web-baselines/10Forms/#10d-test-procedure-for-error-identification
   - id: form-has-label
+    alt_id: 10.E
     label: Form Has Label
+    description: https://ictbaseline.access-board.gov/web-baselines/10Forms/#10e-test-procedure-for-form-has-label
   - id: error-suggestion
+    alt_id: 10.F
     label: Error Suggestion
+    description: https://ictbaseline.access-board.gov/web-baselines/10Forms/#10f-test-procedure-for-error-suggestion
   - id: error-prevention
+    alt_id: 10.G
     label: Error Prevention
+    description: https://ictbaseline.access-board.gov/web-baselines/10Forms/#10g-test-procedure-for-error-prevention
   - id: input-purpose
+    alt_id: 10.H
     label: Input Purpose
+    description: https://ictbaseline.access-board.gov/web-baselines/10Forms/#10h-test-procedure-for-input-purpose
   - id: page-titled
+    alt_id: 11.A
     label: Page Titled
+    description: https://ictbaseline.access-board.gov/web-baselines/11PageTitles/#11a-test-procedure-for-page-titled
+  - id: data-table-role
+    alt_id: 12.A
+    label: Data Table Role
+    description: https://ictbaseline.access-board.gov/web-baselines/12DataTables/#12a-test-procedure-for-data-table-roles
+  - id: data-table-role
+    alt_id: 12.C
+    label: Layout Table
+    description: https://ictbaseline.access-board.gov/web-baselines/12DataTables/#12c-test-procedure-for-layout-tables
+  - id: data-table-header-association
+    alt_id: 12.B
+    label: Data Table Header Association
+    description: https://ictbaseline.access-board.gov/web-baselines/12DataTables/#12b-test-procedure-for-data-table-header-association
+  - id: heading-descriptive
+    alt_id: 13.A
+    label: Heading Descriptive
+    description: https://ictbaseline.access-board.gov/web-baselines/13Structure/#13a-test-procedure-for-descriptive-headings
+  - id: vis-heading-prog
+    alt_id: 13.B
+    label: Vis Heading Prog
+    description: https://ictbaseline.access-board.gov/web-baselines/13Structure/#13b-test-procedure-for-visual-headings-programmatic
+  - id: prog-heading-visual
+    alt_id: 13.C
+    label: Prog Heading Visual
+    description: https://ictbaseline.access-board.gov/web-baselines/13Structure/#13c-test-procedure-for-programmatic-headings-visual
+  - id: list
+    alt_id: 13.D
+    label: List
+    description: https://ictbaseline.access-board.gov/web-baselines/13Structure/#13d-test-procedure-for-visually-apparent-lists
+  - id: link-purpose
+    alt_id: 14.A
+    label: Link Purpose
+    description: https://ictbaseline.access-board.gov/web-baselines/14Links/#14a-test-procedure-for-link-purpose-in-context
   - id: none
     label: ""

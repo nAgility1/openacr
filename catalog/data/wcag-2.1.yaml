@@ -168,6 +168,83 @@ chapters:
         alt_id: info-and-relationships
         components:
           - form-name
+      - id: 2.4.6
+        handle: Headings and Labels-https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels
+        alt_id: headings-and-labels
+        components:
+          - form-descriptive-label
+      - id: 3.2.2
+        handle: On Input-https://www.w3.org/WAI/WCAG22/Understanding/on-input
+        alt_id: on-input
+        components:
+          - on-input
+      - id: 3.3.1
+        handle: Error Identification-https://www.w3.org/WAI/WCAG22/Understanding/error-identification
+        alt_id: error-identification
+        components:
+          - error-identification
+      - id: 3.3.2
+        handle: Labels or Instructions-https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions
+        alt_id: labels-or-instructions
+        components:
+          - form-has-label
+      - id: 3.3.3
+        handle: Error Suggestion-https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion
+        alt_id: error-suggestion
+        components:
+          - error-suggestion
+      - id: 3.3.4
+        handle: Error Prevention (Legal, Financial, Data)-https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data
+        alt_id: error-prevention-legal-financial-data
+        components:
+          - error-prevention
+      - id: 1.3.5
+        handle: Identify Input Purpose-https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose
+        alt_id: identify-input-purpose
+        components:
+          - input-purpose
+      - id: 2.4.2
+        handle: Page Titled-https://www.w3.org/WAI/WCAG22/Understanding/page-titled
+        alt_id: page-titled
+        description: 11. Page Titles
+        components:
+          - page-titled
+      - id: 4.1.2
+        handle: Name, Role, Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+        alt_id: name-role-value
+        description: 12. Tables
+        components:
+          - data-table-role
+          - layout-table
+      - id: 1.3.1
+        handle: Info and Relationships
+        alt_id: info-and-relationships
+        components:
+          - data-table-header-association
+      - id: 2.4.6
+        handle: Headings and Labels-https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels
+        alt_id: headings-and-labels
+        description: 13. Content Structure
+        components:
+          - heading-descriptive
+      - id: 1.3.1
+        handle: Info and Relationships
+        alt_id: info-and-relationships
+        components:
+          - vis-heading-prog
+          - prog-heading-vis
+          - list
+      - id: 2.4.4
+        handle: Link Purpose (In Context)
+        alt_id: link-purpose-in-context
+        description: 14. Links
+        components:
+          - link-purpose
+      - id: 4.1.2
+        handle: Name, Role, Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+        alt_id: name-role-value
+        components:
+          - link-purpose
       - id: 1.2.1
         handle: Audio-only and Video-only (Prerecorded)
         alt_id: audio-only-and-video-only-prerecorded
@@ -275,14 +352,6 @@ chapters:
       - id: 3.1.1
         handle: Language of Page
         alt_id: language-of-page
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.2.2
-        handle: On Input
-        alt_id: on-input
         components:
           - web
           - electronic-docs
