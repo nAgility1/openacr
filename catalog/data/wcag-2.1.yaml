@@ -257,35 +257,78 @@ chapters:
         components:
           - language-part
       - id: 1.2.1
-        handle: Audio-only and Video-only (Prerecorded)
+        handle: Audio-only and Video-only (Prerecorded)-https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded
         alt_id: audio-only-and-video-only-prerecorded
-        desscription: 16. Audio-Only and Video-Only 
+        description: 16. Audio-Only and Video-Only 
         components:
           - audio-only-transcript
           - video-only-transcript
           - audio-media-alternative
           - video-media-alternative
-      
-      
+      - id: Section 508 503.4
+        handle: User Controls for Captions and Audio Description-https://www.federalregister.gov/d/2017-00395/p-630
+        alt_id: user-controls-for-captions-and-audio-description
+        description:  17. Synchronized Media
+        components:
+          - media-player-ccad-controls
+      - id: Section 508 503.4.1
+        handle: Caption Controls-https://www.federalregister.gov/d/2017-00395/p-631
+        alt_id: capption-controls
+        components:
+          - media-player-cc-level
+      - id: Section 508 503.4.2
+        handle: Audio Description Controls-https://www.federalregister.gov/d/2017-00395/p-632
+        alt_id: audio-description-controls
+        components:
+          - media-player-ad-level
       - id: 1.2.2
-        handle: Captions (Prerecorded)
+        handle: Captions (Prerecorded)-https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded
         alt_id: captions-prerecorded
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - caption-prerecorded
+      - id: 1.2.5
+        handle: Audio Description (Prerecorded)-https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded
+        alt_id: audio-description-prerecorded
+        components:
+          - ad-prerecorded
+      - id: 1.2.4
+        handle: Captions (Live)-https://www.w3.org/WAI/WCAG22/Understanding/captions-live
+        alt_id: captions-live
+        components:
+          - captions-live
       - id: 1.2.3
-        handle: Audio Description or Media Alternative (Prerecorded)
+        handle: Audio Description or Media Alternative (Prerecorded)-https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded
         alt_id: audio-description-or-media-alternative-prerecorded
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - sync-media-alternative
       - id: 1.3.2
-        handle: Meaningful Sequence
+        handle: Meaningful Sequence-https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence
         alt_id: meaningful-sequence
+        description: 18. CSS Positioning
+        components:
+          - css-positioned-content
+      - id: 4.1.2
+        handle: Name, Role, Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+        alt_id: name-role-value
+        description: 19. Frames and iFrames
+        components:
+          - frame-title
+          - iframe-name
+      - id: 0.0.0
+        handle: Conforming Alternate Version-https://www.w3.org/WAI/WCAG22/Understanding/conformance#conforming-alt-versions
+        alt_id: conforming-alternate-version
+        description: 20. Conforming Alternate Version
+        components:
+          - conforming-alt-version
+      - id: 2.2.1
+        handle: Timing Adjustable-https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable
+        alt_id: timing-adjustable
+        description: 21. Timing Adjustable
+        components:
+          - timing-adjustable
+      - id: 2.2.2
+        handle: Pause, Stop, Hide
+        alt_id: pause-stop-hide
         components:
           - web
           - electronic-docs
@@ -294,22 +337,6 @@ chapters:
       - id: 1.4.2
         handle: Audio Control
         alt_id: audio-control
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.2.1
-        handle: Timing Adjustable
-        alt_id: timing-adjustable
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.2.2
-        handle: Pause, Stop, Hide
-        alt_id: pause-stop-hide
         components:
           - web
           - electronic-docs
