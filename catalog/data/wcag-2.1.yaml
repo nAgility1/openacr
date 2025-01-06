@@ -333,90 +333,59 @@ chapters:
           - moving-info
           - auto-update
       - id: 1.4.2
-        handle: Audio Control
+        handle: Audio Control-https://www.w3.org/WAI/WCAG22/Understanding/audio-control
         alt_id: audio-control
         components:
           - audio-control
-      - id: 2.3.1
-        handle: Three Flashes or Below Threshold
-        alt_id: three-flashes-or-below-threshold
+      - id: 1.4.4
+        handle: Resize text-https://www.w3.org/WAI/WCAG22/Understanding/resize-text
+        alt_id: visual-audio-contrast-scale
+        description: 22. Resize Text
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool    
-      - id: 2.4.2
-        handle: Page Titled
-        alt_id: page-titled
+          - resize-text
+      - id: 1.4.10
+        handle: Reflow-https://www.w3.org/WAI/WCAG22/Understanding/reflow
+        alt_id: reflow
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.4.4
-        handle: Link Purpose (In Context)
-        alt_id: link-purpose-in-context
+          - reflow
+      - id: 1.3.4
+        handle: Orientation-https://www.w3.org/WAI/WCAG22/Understanding/orientation
+        alt_id: orientation
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - orientation
+      - id: 1.4.12
+        handle: Text Spacing-https://www.w3.org/WAI/WCAG22/Understanding/text-spacing
+        alt_id: text-spacing
+        components:
+          - text-spacing
+      - id: 2.4.5
+        handle: Multiple Ways-https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways
+        alt_id: multiple-ways
+        description: 23. Multiple Ways
+        components:
+          - multiple-ways
+      - id: 4.1.1
+        handle: Parsing-https://www.w3.org/WAI/WCAG22/Understanding/parsing
+        alt_id: parsing
+        description: 24. Parsing
+        components:
+          - parsing
       - id: 2.5.1
-        handle: Pointer Gestures
+        handle: Pointer Gestures-https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures
         alt_id: pointer-gestures
+        description: 25. Pointer Gestures
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - pointer-gestures
       - id: 2.5.2
-        handle: Pointer Cancellation
+        handle: Pointer Cancellation-https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation
         alt_id: pointer-cancellation
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - pointer-cancellation
       - id: 2.5.4
-        handle: Motion Actuation
+        handle: Motion Actuation-https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation
         alt_id: motion-actuation
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.1.1
-        handle: Language of Page
-        alt_id: language-of-page
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.3.1
-        handle: Error Identification
-        alt_id: error-identification
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.3.2
-        handle: Labels or Instructions
-        alt_id: labels-or-instructions
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 4.1.1
-        handle: Parsing
-        alt_id: parsing
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - motion-actuation
   - id: success_criteria_level_aa
     label: "Table 2: Success Criteria, Level AA"
     short_label: AA
