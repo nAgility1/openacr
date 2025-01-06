@@ -222,9 +222,9 @@ components:
     alt_id: 17.D
     label: Captions Prerecorded
     description: https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17d-test-procedure-for-captions-prerecorded
-    - id: captions-prerecorded
+    - id: ad-captions-prerecorded
     alt_id: 17.E
-    label: Captions Prerecorded
+    label: AD Captions Prerecorded
     description: https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17e-test-procedure-for-audio-description-prerecorded
     - id: captions-live
     alt_id: 17.F
@@ -273,15 +273,15 @@ components:
   - id: reflow
     alt_id: 22.B
     label: Reflow
-    description: 
+    description: https://ictbaseline.access-board.gov/web-baselines/22Resize/#22b-test-procedure-for-reflow
   - id: orientation
     alt_id: 22.C
     label: Orientation
-    description: 
+    description: https://ictbaseline.access-board.gov/web-baselines/22Resize/#22c-test-procedure-for-orientation
   - id: text-spacing
     alt_id: 22.D
     label: TextSpacing
-    description: 
+    description: https://ictbaseline.access-board.gov/web-baselines/22Resize/#22d-test-procedure-for-text-spacing
   - id: multiple-ways
     alt_id: 23.A
     label: Multiple Ways
@@ -293,7 +293,7 @@ components:
   - id: pointer-gestures
     alt_id: 25.A
     label: Pointer Gestures
-    description:
+    description: 
   - id: pointer-cancellation
     alt_id: 25.B
     label: Pointer Cancellation
