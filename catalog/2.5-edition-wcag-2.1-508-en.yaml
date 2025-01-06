@@ -23,7 +23,7 @@ standards:
 chapters:
   - id: success_criteria_level_a
     label: "Table 1: Success Criteria, Level Web"
-    short_label: A
+    short_label: A-AA
     order: 1
     criteria:
       - id: 2.1.1
@@ -64,7 +64,7 @@ chapters:
         alt_id: on-focus
         components:
           - on-focus
-      - id: 1.4.13
+      - id: 1.4.13-a
         handle: >-
           Content on Hover or
           Focus-https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
@@ -102,14 +102,14 @@ chapters:
         alt_id: consistent-identification
         components:
           - consistent-identification
-      - id: 1.4.13
+      - id: 1.4.13-b
         handle: >-
           Content on Hover or
           Focus-https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
         alt_id: content-on-hover-or-focus
         components:
           - bypass-blocks
-      - id: 4.1.2
+      - id: 4.1.2-a
         handle: >-
           Name, Role,
           Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
@@ -134,7 +134,7 @@ chapters:
         alt_id: status-messages
         components:
           - status-messages
-      - id: 4.1.2
+      - id: 4.1.2-b
         handle: >-
           Name, Role,
           Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
@@ -142,7 +142,7 @@ chapters:
         description: 6. Images
         components:
           - meaningful-image
-      - id: 1.1.1
+      - id: 1.1.1-a
         handle: >-
           Non-text
           Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
@@ -171,14 +171,14 @@ chapters:
         alt_id: sensory-characteristics
         components:
           - sensory-characteristics
-      - id: 1.1.1
+      - id: 1.1.1-b
         handle: >-
           Non-text
           Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
         alt_id: non-text-content
         components:
           - audible-queues
-      - id: 1.4.3
+      - id: 1.4.3-a
         handle: >-
           Contrast
           (Minimum)-https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum
@@ -186,7 +186,7 @@ chapters:
         description: 8. Contrast
         components:
           - contrast-minimum
-      - id: 1.4.11
+      - id: 1.4.11-b
         handle: >-
           Non-text
           Contrast-https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast
@@ -201,7 +201,7 @@ chapters:
         description: 9. Flashing
         components:
           - flashes
-      - id: 1.1.1
+      - id: 1.1.1-c
         handle: >-
           Non-text
           Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
@@ -209,14 +209,14 @@ chapters:
         description: 10. Forms
         components:
           - form-name
-      - id: 4.1.2
+      - id: 4.1.2-c
         handle: >-
           Name, Role,
           Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
         alt_id: name-role-value
         components:
           - form-name
-      - id: 1.3.1
+      - id: 1.3.1-a
         handle: Info and Relationships
         alt_id: info-and-relationships
         components:
@@ -261,7 +261,7 @@ chapters:
         alt_id: error-prevention-legal-financial-data
         components:
           - error-prevention
-      - id: 1.3.5
+      - id: 1.3.5-a
         handle: >-
           Identify Input
           Purpose-https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose
@@ -274,7 +274,7 @@ chapters:
         description: 11. Page Titles
         components:
           - page-titled
-      - id: 4.1.2
+      - id: 4.1.2-d
         handle: >-
           Name, Role,
           Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
@@ -283,7 +283,7 @@ chapters:
         components:
           - data-table-role
           - layout-table
-      - id: 1.3.1
+      - id: 1.3.1-b
         handle: >-
           Info and
           Relationships-https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships
@@ -298,7 +298,7 @@ chapters:
         description: 13. Content Structure
         components:
           - heading-descriptive
-      - id: 1.3.1
+      - id: 1.3.1-c
         handle: >-
           Info and
           Relationships-https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships
@@ -315,7 +315,7 @@ chapters:
         description: 14. Links
         components:
           - link-purpose
-      - id: 4.1.2
+      - id: 4.1.2-e
         handle: >-
           Name, Role,
           Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
@@ -404,7 +404,7 @@ chapters:
         description: 18. CSS Positioning
         components:
           - css-positioned-content
-      - id: 4.1.2
+      - id: 4.1.2-f
         handle: >-
           Name, Role,
           Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
@@ -450,17 +450,17 @@ chapters:
         description: 22. Resize Text
         components:
           - resize-text
-      - id: 1.4.10
+      - id: 1.4.10-b
         handle: Reflow-https://www.w3.org/WAI/WCAG22/Understanding/reflow
         alt_id: reflow
         components:
           - reflow
-      - id: 1.3.4
+      - id: 1.3.4-a
         handle: Orientation-https://www.w3.org/WAI/WCAG22/Understanding/orientation
         alt_id: orientation
         components:
           - orientation
-      - id: 1.4.12
+      - id: 1.4.12-a
         handle: Text Spacing-https://www.w3.org/WAI/WCAG22/Understanding/text-spacing
         alt_id: text-spacing
         components:
@@ -522,7 +522,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.3.4
+      - id: 1.3.4-b
         handle: Orientation
         alt_id: orientation
         components:
@@ -530,7 +530,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.3.5
+      - id: 1.3.5-b
         handle: Identify Input Purpose
         alt_id: identify-input-purpose
         components:
@@ -538,7 +538,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.4.3
+      - id: 1.4.3-b
         handle: Contrast (Minimum)
         alt_id: visual-audio-contrast-contrast
         components:
@@ -563,7 +563,7 @@ chapters:
           - software
           - authoring-tool
           - image-text
-      - id: 1.4.10
+      - id: 1.4.10-a
         handle: Reflow
         alt_id: reflow
         components:
@@ -571,7 +571,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.4.11
+      - id: 1.4.11-a
         handle: Non-text Contrast
         alt_id: non-text-contrast
         components:
@@ -579,7 +579,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.4.12
+      - id: 1.4.12-b
         handle: Text Spacing
         alt_id: text-spacing
         components:
@@ -1361,6 +1361,376 @@ chapters:
         alt_id: "603.3"
         components:
           - none
+components:
+  - id: web
+    label: Web
+  - id: electronic-docs
+    label: Electronic Documents
+  - id: software
+    label: Software
+  - id: authoring-tool
+    label: Authoring Tool
+  - id: keyboard-access
+    alt_id: 1.A
+    label: Keyboard Access
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/01Keyboard/#1a-test-procedure-for-keyboard-access
+  - id: no-keyboard-trap
+    alt_id: 1.B
+    label: No Keyboard Trap
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/01Keyboard/#1b-test-procedure-for-no-keyboard-trap
+  - id: key-shortcuts
+    alt-id: 1.C
+    label: Key Shortcuts
+  - id: focus-visible
+    alt_id: 2.A
+    label: Focus Visible
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/02FocusVisible/#2a-test-procedure-for-focus-visible
+  - id: focus-order
+    alt_id: 2.B
+    label: Focus Order
+  - id: on-focus
+    alt_id: 2.C
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/02FocusVisible/#2b-test-procedure-for-focus-order
+    label: On Focus
+  - id: content-on-hover-or-focus
+    alt_id: 2.D
+    label: Content on Hover or Focus
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/02FocusVisible/#2c-test-procedure-for-on-focus
+  - id: non-interference
+    label: Non Interference
+    alt_id: 3.A
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/03Noninterference/#3a-test-procedure-for-non-interference
+  - id: bypass-blocks
+    alt_id: 4.A
+    label: Bypass Blocks
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/04RepetitiveContent/#4a-test-procedure-for-bypass-blocks
+  - id: consistent-navigation
+    alt_id: 4.B
+    label: Consistent Navigation
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/04RepetitiveContent/#4b-test-procedure-for-consistent-navigation
+  - id: consistent-identification
+    label: Consistent Identification
+    alt_id: 4.C
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/04RepetitiveContent/#4c-test-procedure-for-consistent-identification
+  - id: control-name
+    alt_id: 5.A
+    label: Control Name
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/05Controls/#5a-test-procedure-for-control-name
+  - id: control-role
+    alt_id: 5.B
+    label: Control Role
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/05Controls/#5b-test-procedure-for-control-role
+  - id: control-state
+    alt_id: 5.C
+    label: Control State
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/05Controls/#5c-test-procedure-for-control-state
+  - id: control-value
+    alt_id: 5.D
+    label: Control Value
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/05Controls/#5d-test-procedure-for-control-value
+  - id: label-in-name
+    alt_id: 5.E
+    label: Label in Name
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/05Controls/#5e-test-procedure-for-label-in-name
+  - id: status-messages
+    alt_id: 5.F
+    label: Status Messages
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/05Controls/#5f-test-procedure-for-status-messages
+  - id: meaningful-image
+    alt_id: 6.A
+    label: Meaningful Image
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/06Images/#6a-test-procedure-for-images-with-a-non-empty-text-alternative
+  - id: decorative-image
+    alt_id: 6.B
+    label: Decorative Image
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/06Images/#6b-test-procedure-for-images-with-an-empty-text-alternative
+  - id: captcha
+    alt_id: 6.C
+    label: CAPTCHA
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/06Images/#6c-test-procedure-for-captchas
+  - id: image-text
+    alt_id: 6.D
+    label: Image Text
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/06Images/#6d-test-procedure-for-images-of-text
+  - id: color
+    alt_id: 7.A
+    label: Color
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/07Sensory/#7a-test-procedure-for-use-of-color
+  - id: sensory-characteristics
+    alt_id: 7.B
+    label: Sensory Characteristics
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/07Sensory/#7b-test-procedure-for-sensory-characteristics
+  - id: audible-cues
+    alt_id: 7.C
+    label: Audible Cues
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/07Sensory/#7c-test-procedure-for-audible-cues
+  - id: contrast-minimum
+    alt_id: 8.A
+    label: Contrast (Minimum)
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/08Contrast/#8a-test-procedure-for-contrast-minimum
+  - id: graphical-contrast
+    label: Graphical Contrast
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/08Contrast/#8b-test-procedure-for-graphical-contrast
+  - id: flashes
+    alt_id: 9.A
+    label: Flashes
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/09Flashing/#9a-test-procedure-for-three-flashes-or-below-threshold
+  - id: form-name
+    alt_id: 10.A
+    label: Form Name
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10a-test-procedure-for-form-name
+  - id: form-descriptive-label
+    alt_id: 10.B
+    label: Form Descriptive Label
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10b-test-procedure-for-form-descriptive-label
+  - id: on-input
+    alt_id: 10.C
+    label: On Input
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10c-test-procedure-for-on-input
+  - id: error-identification
+    alt_id: 10.D
+    label: Error Identification
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10d-test-procedure-for-error-identification
+  - id: form-has-label
+    alt_id: 10.E
+    label: Form Has Label
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10e-test-procedure-for-form-has-label
+  - id: error-suggestion
+    alt_id: 10.F
+    label: Error Suggestion
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10f-test-procedure-for-error-suggestion
+  - id: error-prevention
+    alt_id: 10.G
+    label: Error Prevention
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10g-test-procedure-for-error-prevention
+  - id: input-purpose
+    alt_id: 10.H
+    label: Input Purpose
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10h-test-procedure-for-input-purpose
+  - id: page-titled
+    alt_id: 11.A
+    label: Page Titled
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/11PageTitles/#11a-test-procedure-for-page-titled
+  - id: data-table-role
+    alt_id: 12.A
+    label: Data Table Role
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/12DataTables/#12a-test-procedure-for-data-table-roles
+  - id: data-table-role
+    alt_id: 12.C
+    label: Layout Table
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/12DataTables/#12c-test-procedure-for-layout-tables
+  - id: data-table-header-association
+    alt_id: 12.B
+    label: Data Table Header Association
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/12DataTables/#12b-test-procedure-for-data-table-header-association
+  - id: heading-descriptive
+    alt_id: 13.A
+    label: Heading Descriptive
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/13Structure/#13a-test-procedure-for-descriptive-headings
+  - id: vis-heading-prog
+    alt_id: 13.B
+    label: Vis Heading Prog
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/13Structure/#13b-test-procedure-for-visual-headings-programmatic
+  - id: prog-heading-visual
+    alt_id: 13.C
+    label: Prog Heading Visual
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/13Structure/#13c-test-procedure-for-programmatic-headings-visual
+  - id: list
+    alt_id: 13.D
+    label: List
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/13Structure/#13d-test-procedure-for-visually-apparent-lists
+  - id: link-purpose
+    alt_id: 14.A
+    label: Link Purpose
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/14Links/#14a-test-procedure-for-link-purpose-in-context
+  - id: language-page
+    alt_id: 15.A
+    label: Language of Page
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/15Language/#15a-test-procedure-for-language-of-page
+  - id: language-parts
+    alt_id: 15.B
+    label: Language of Parts
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/15Language/#15b-test-procedure-for-language-of-parts
+  - id: audio-only-transcript
+    alt_id: 16.A
+    label: Audio-Only Transcript
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16a-test-procedure-for-audio-only-prerecorded
+  - id: video-only-transcript
+    alt_id: 16.B
+    label: Video-Only Alt
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16b-test-procedure-for-video-only-prerecorded
+  - id: audio-media-alternative
+    alt_id: 16.C
+    label: Audeo-Media Alternative
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16c-test-procedure-for-audio-media-alternative-prerecorded
+  - id: video-media-alternative
+    alt_id: 16.D
+    label: Video-Media Alternative
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16d-test-procedure-for-video-media-alternative-prerecorded
+  - id: media-player-ccad-controls
+    alt_id: 17.A
+    label: Media Player CCAD Controls
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17a-test-procedure-for-media-player-controls
+  - id: media-player-cc-level
+    alt_id: 17.B
+    label: Media Player CC Level
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17b-test-procedure-for-media-player-caption-control-level
+  - id: media-player-ad-level
+    alt_id: 17.C
+    label: Media Player AD Level
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17c-test-procedure-for-media-player-audio-description-control-level
+  - id: captions-prerecorded
+    alt_id: 17.D
+    label: Captions Prerecorded
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17d-test-procedure-for-captions-prerecorded
+  - id: ad-captions-prerecorded
+    alt_id: 17.E
+    label: AD Captions Prerecorded
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17e-test-procedure-for-audio-description-prerecorded
+  - id: captions-live
+    alt_id: 17.F
+    label: Captions Live
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17f-test-procedure-for-captions-live
+  - id: sync-media-alternative
+    alt_id: 17.G
+    label: Sync Media Alternative
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17g-test-procedure-for-sync-media-alternative-prerecorded
+  - id: css-positioned-content
+    alt_id: 18.B
+    label: CSS Positioned Content
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/18Stylesheet/#18b-test-procedure-for-css-positioned-content
+  - id: frame-title
+    alt_id: 19.A
+    label: Frame Title
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/19Frames/#19a-test-procedure-for-frames
+  - id: iframe-name
+    alt_id: 19.B
+    label: iFrame Name
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/19Frames/#19b-test-procedure-for-iframe-name
+  - id: coonforming-alt-version
+    alt_id: 20.A
+    label: Conforming Alt Version
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/20AlternateVersions/#20a-test-procedure-for-conforming-alternate-version
+  - id: timing-adjustable
+    alt_id: 21.A
+    label: Timing Adjustable
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/#21a-test-procedure-for-timing-adjustable
+  - id: moving-info
+    alt_id: 21.B
+    label: Moving Info
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/#21b-test-procedure-for-moving-information
+  - id: auto-update
+    alt_id: 21.C
+    label: Auto Update
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/#21c-test-procedure-for-auto-updating-information
+  - id: audio-control
+    alt_id: 21.D
+    label: Audio Control
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/#21d-test-procedure-for-audio-control
+  - id: resize-text
+    alt_id: 22.A
+    label: Resize Text
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/22Resize/#22a-test-procedure-for-resize-text
+  - id: reflow
+    alt_id: 22.B
+    label: Reflow
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/22Resize/#22b-test-procedure-for-reflow
+  - id: orientation
+    alt_id: 22.C
+    label: Orientation
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/22Resize/#22c-test-procedure-for-orientation
+  - id: text-spacing
+    alt_id: 22.D
+    label: TextSpacing
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/22Resize/#22d-test-procedure-for-text-spacing
+  - id: multiple-ways
+    alt_id: 23.A
+    label: Multiple Ways
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/23MultipleWays/#23a-test-procedure-for-related-web-pages
+  - id: parsing
+    alt_id: 24.A
+    label: Parsing
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/24Parsing/#24a-test-procedure-for-parsing
+  - id: pointer-gestures
+    alt_id: 25.A
+    label: Pointer Gestures
+  - id: pointer-cancellation
+    alt_id: 25.B
+    label: Pointer Cancellation
+  - id: motion
+    alt_id: 25.C
+    label: Motion
+  - id: none
+    label: ""
 terms:
   - id: supports
     label: Supports
