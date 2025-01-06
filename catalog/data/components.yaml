@@ -293,14 +293,11 @@ components:
   - id: pointer-gestures
     alt_id: 25.A
     label: Pointer Gestures
-    description: 
   - id: pointer-cancellation
     alt_id: 25.B
     label: Pointer Cancellation
-    description:
   - id: motion
     alt_id: 25.C
     label: Motion
-    description:
   - id: none
     label: ""

@@ -14,7 +14,7 @@ standard:
 chapters:
   - id: success_criteria_level_a
     label: "Table 1: Success Criteria, Level Web"
-    short_label: A
+    short_label: A-AA
     order: 1
     criteria:
       - id: 2.1.1
@@ -49,7 +49,7 @@ chapters:
         alt_id: on-focus
         components:
           - on-focus
-      - id: 1.4.13
+      - id: 1.4.13-a
         handle: Content on Hover or Focus-https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
         alt_id: content-on-hover-or-focus
         components:
@@ -77,12 +77,12 @@ chapters:
         alt_id: consistent-identification
         components:
           - consistent-identification
-      - id: 1.4.13
+      - id: 1.4.13-b
         handle: Content on Hover or Focus-https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
         alt_id: content-on-hover-or-focus
         components:
           - bypass-blocks
-      - id: 4.1.2
+      - id: 4.1.2-a
         handle: Name, Role, Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
         alt_id: name-role-value
         description: 5. User Controls
@@ -101,13 +101,13 @@ chapters:
         alt_id: status-messages
         components:
           - status-messages
-      - id: 4.1.2
+      - id: 4.1.2-b
         handle: Name, Role, Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
         alt_id: name-role-value
         description: 6. Images
         components:
           - meaningful-image
-      - id: 1.1.1
+      - id: 1.1.1-a
         handle: Non-text Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
         alt_id: non-text-content
         components:
@@ -130,18 +130,18 @@ chapters:
         alt_id: sensory-characteristics
         components:
           - sensory-characteristics
-      - id: 1.1.1
+      - id: 1.1.1-b
         handle: Non-text Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
         alt_id: non-text-content
         components:
           - audible-queues
-      - id: 1.4.3
+      - id: 1.4.3-a
         handle: Contrast (Minimum)-https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum
         alt_id: visual-audio-contrast-contrast
         description: 8. Contrast
         components:
           - contrast-minimum
-      - id: 1.4.11
+      - id: 1.4.11-b
         handle: Non-text Contrast-https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast
         alt_id: non-text-contrast
         components:
@@ -152,18 +152,18 @@ chapters:
         description: 9. Flashing
         components:
           - flashes 
-      - id: 1.1.1
+      - id: 1.1.1-c
         handle: Non-text Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
         alt_id: non-text-content
         description: 10. Forms
         components:
           - form-name
-      - id: 4.1.2
+      - id: 4.1.2-c
         handle: Name, Role, Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
         alt_id: name-role-value
         components:
           - form-name
-      - id: 1.3.1
+      - id: 1.3.1-a
         handle: Info and Relationships
         alt_id: info-and-relationships
         components:
@@ -198,7 +198,7 @@ chapters:
         alt_id: error-prevention-legal-financial-data
         components:
           - error-prevention
-      - id: 1.3.5
+      - id: 1.3.5-a
         handle: Identify Input Purpose-https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose
         alt_id: identify-input-purpose
         components:
@@ -209,14 +209,14 @@ chapters:
         description: 11. Page Titles
         components:
           - page-titled
-      - id: 4.1.2
+      - id: 4.1.2-d
         handle: Name, Role, Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
         alt_id: name-role-value
         description: 12. Tables
         components:
           - data-table-role
           - layout-table
-      - id: 1.3.1
+      - id: 1.3.1-b
         handle: Info and Relationships-https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships
         alt_id: info-and-relationships
         components:
@@ -227,7 +227,7 @@ chapters:
         description: 13. Content Structure
         components:
           - heading-descriptive
-      - id: 1.3.1
+      - id: 1.3.1-c
         handle: Info and Relationships-https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships
         alt_id: info-and-relationships
         components:
@@ -240,7 +240,7 @@ chapters:
         description: 14. Links
         components:
           - link-purpose
-      - id: 4.1.2
+      - id: 4.1.2-e
         handle: Name, Role, Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
         alt_id: name-role-value
         components:
@@ -307,7 +307,7 @@ chapters:
         description: 18. CSS Positioning
         components:
           - css-positioned-content
-      - id: 4.1.2
+      - id: 4.1.2-f
         handle: Name, Role, Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
         alt_id: name-role-value
         description: 19. Frames and iFrames
@@ -343,17 +343,17 @@ chapters:
         description: 22. Resize Text
         components:
           - resize-text
-      - id: 1.4.10
+      - id: 1.4.10-b
         handle: Reflow-https://www.w3.org/WAI/WCAG22/Understanding/reflow
         alt_id: reflow
         components:
           - reflow
-      - id: 1.3.4
+      - id: 1.3.4-a
         handle: Orientation-https://www.w3.org/WAI/WCAG22/Understanding/orientation
         alt_id: orientation
         components:
           - orientation
-      - id: 1.4.12
+      - id: 1.4.12-a
         handle: Text Spacing-https://www.w3.org/WAI/WCAG22/Understanding/text-spacing
         alt_id: text-spacing
         components:
@@ -407,7 +407,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.3.4
+      - id: 1.3.4-b
         handle: Orientation
         alt_id: orientation
         components:
@@ -415,7 +415,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.3.5
+      - id: 1.3.5-b
         handle: Identify Input Purpose
         alt_id: identify-input-purpose
         components:
@@ -423,7 +423,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.4.3
+      - id: 1.4.3-b
         handle: Contrast (Minimum)
         alt_id: visual-audio-contrast-contrast
         components:
@@ -448,7 +448,7 @@ chapters:
           - software
           - authoring-tool
           - image-text
-      - id: 1.4.10
+      - id: 1.4.10-a
         handle: Reflow
         alt_id: reflow
         components:
@@ -456,7 +456,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.4.11
+      - id: 1.4.11-a
         handle: Non-text Contrast
         alt_id: non-text-contrast
         components:
@@ -464,7 +464,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 1.4.12
+      - id: 1.4.12-b
         handle: Text Spacing
         alt_id: text-spacing
         components:
