@@ -235,24 +235,72 @@ components:
     label: Sync Media Alternative
     description: https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17g-test-procedure-for-sync-media-alternative-prerecorded
   - id: css-positioned-content
-    alt_id: 
+    alt_id: 18.B
     label: CSS Positioned Content
+    description: https://ictbaseline.access-board.gov/web-baselines/18Stylesheet/#18b-test-procedure-for-css-positioned-content
+  - id: frame-title
+    alt_id: 19.A
+    label: Frame Title
+    description: https://ictbaseline.access-board.gov/web-baselines/19Frames/#19a-test-procedure-for-frames
+  - id: iframe-name
+    alt_id: 19.B
+    label: iFrame Name
+    description: https://ictbaseline.access-board.gov/web-baselines/19Frames/#19b-test-procedure-for-iframe-name
+  - id: coonforming-alt-version
+    alt_id: 20.A
+    label: Conforming Alt Version
+    description: https://ictbaseline.access-board.gov/web-baselines/20AlternateVersions/#20a-test-procedure-for-conforming-alternate-version
+  - id: timing-adjustable
+    alt_id: 21.A
+    label: Timing Adjustable
+    description: https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/#21a-test-procedure-for-timing-adjustable     
+  - id: moving-info
+    alt_id: 21.B
+    label: Moving Info
+    description: https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/#21b-test-procedure-for-moving-information
+  - id: auto-update
+    alt_id: 21.C
+    label: Auto Update
+    description: https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/#21c-test-procedure-for-auto-updating-information 
+  - id: audio-control
+    alt_id: 21.D
+    label: Audio Control
+    description: https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/#21d-test-procedure-for-audio-control
+  - id: resize-text
+    alt_id: 22.A
+    label: Resize Text
+    description: https://ictbaseline.access-board.gov/web-baselines/22Resize/#22a-test-procedure-for-resize-text
+  - id: reflow
+    alt_id: 22.B
+    label: Reflow
+    description: 
+  - id: orientation
+    alt_id: 22.C
+    label: Orientation
+    description: 
+  - id: text-spacing
+    alt_id: 22.D
+    label: TextSpacing
+    description: 
+  - id: multiple-ways
+    alt_id: 23.A
+    label: Multiple Ways
+    description: https://ictbaseline.access-board.gov/web-baselines/23MultipleWays/#23a-test-procedure-for-related-web-pages
+  - id: parsing
+    alt_id: 24.A
+    label: Parsing
+    description: https://ictbaseline.access-board.gov/web-baselines/24Parsing/#24a-test-procedure-for-parsing
+  - id: pointer-gestures
+    alt_id: 25.A
+    label: Pointer Gestures
     description:
-  - id: 
-    alt_id: 
-    label: 
+  - id: pointer-cancellation
+    alt_id: 25.B
+    label: Pointer Cancellation
     description:
-  - id: 
-    alt_id: 
-    label: 
+  - id: motion
+    alt_id: 25.C
+    label: Motion
     description:
-  - id: 
-    alt_id: 
-    label: 
-    description:
-  - id: 
-    alt_id: 
-    label: 
-    description:      
   - id: none
     label: ""
