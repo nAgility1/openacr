@@ -327,21 +327,16 @@ chapters:
         components:
           - timing-adjustable
       - id: 2.2.2
-        handle: Pause, Stop, Hide
+        handle: Pause, Stop, Hide-https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide
         alt_id: pause-stop-hide
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - moving-info
+          - auto-update
       - id: 1.4.2
         handle: Audio Control
         alt_id: audio-control
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - audio-control
       - id: 2.3.1
         handle: Three Flashes or Below Threshold
         alt_id: three-flashes-or-below-threshold
