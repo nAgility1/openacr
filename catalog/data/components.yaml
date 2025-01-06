@@ -194,7 +194,7 @@ components:
     alt_id: 16.A
     label: Audio-Only Transcript
     description: https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16a-test-procedure-for-audio-only-prerecorded
-    id: video-only-transcript
+  - id: video-only-transcript
     alt_id: 16.B
     label: Video-Only Alt
     description: https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16b-test-procedure-for-video-only-prerecorded
@@ -210,27 +210,27 @@ components:
     alt_id: 17.A
     label: Media Player CCAD Controls
     description: https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17a-test-procedure-for-media-player-controls
-    - id: media-player-cc-level
+  - id: media-player-cc-level
     alt_id: 17.B
     label: Media Player CC Level
     description: https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17b-test-procedure-for-media-player-caption-control-level
-    - id: media-player-ad-level
+  - id: media-player-ad-level
     alt_id: 17.C
     label: Media Player AD Level
     description: https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17c-test-procedure-for-media-player-audio-description-control-level
-    - id: captions-prerecorded
+  - id: captions-prerecorded
     alt_id: 17.D
     label: Captions Prerecorded
     description: https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17d-test-procedure-for-captions-prerecorded
-    - id: ad-captions-prerecorded
+  - id: ad-captions-prerecorded
     alt_id: 17.E
     label: AD Captions Prerecorded
     description: https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17e-test-procedure-for-audio-description-prerecorded
-    - id: captions-live
+  - id: captions-live
     alt_id: 17.F
     label: Captions Live
     description: https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17f-test-procedure-for-captions-live
-    - id: sync-media-alternative
+  - id: sync-media-alternative
     alt_id: 17.G
     label: Sync Media Alternative
     description: https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17g-test-procedure-for-sync-media-alternative-prerecorded
