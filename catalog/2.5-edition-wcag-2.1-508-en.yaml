@@ -1251,6 +1251,8 @@ components:
   - id: key-shortcuts
     alt-id: 1.C
     label: Key Shortcuts
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/01Keyboard/#1c-test-procedure-for-key-shortcuts
   - id: focus-visible
     alt_id: 2.A
     label: Focus Visible
@@ -1259,6 +1261,8 @@ components:
   - id: focus-order
     alt_id: 2.B
     label: Focus Order
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/02FocusVisible/#2b-test-procedure-for-focus-order
   - id: on-focus
     alt_id: 2.C
     description: >-
