@@ -217,7 +217,9 @@ chapters:
         components:
           - form-name
       - id: 1.3.1-a
-        handle: Info and Relationships
+        handle: >-
+          Info and
+          Relationships-https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships
         alt_id: info-and-relationships
         components:
           - form-name
