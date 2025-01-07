@@ -177,7 +177,7 @@ chapters:
           Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
         alt_id: non-text-content
         components:
-          - audible-queues
+          - audible-cues
       - id: 1.4.3-a
         handle: >-
           Contrast
@@ -221,7 +221,7 @@ chapters:
         alt_id: info-and-relationships
         components:
           - form-name
-      - id: 2.4.6
+      - id: 2.4.6-a
         handle: >-
           Headings and
           Labels-https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels
@@ -290,7 +290,7 @@ chapters:
         alt_id: info-and-relationships
         components:
           - data-table-header-association
-      - id: 2.4.6
+      - id: 2.4.6-b
         handle: >-
           Headings and
           Labels-https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels
@@ -305,7 +305,7 @@ chapters:
         alt_id: info-and-relationships
         components:
           - vis-heading-prog
-          - prog-heading-vis
+          - prog-heading-visual
           - list
       - id: 2.4.4
         handle: >-
@@ -336,7 +336,7 @@ chapters:
           Parts-https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts
         alt_id: language-of-parts
         components:
-          - language-part
+          - language-parts
       - id: 1.2.1
         handle: >-
           Audio-only and Video-only
@@ -374,7 +374,7 @@ chapters:
           (Prerecorded)-https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded
         alt_id: captions-prerecorded
         components:
-          - caption-prerecorded
+          - captions-prerecorded
       - id: 1.2.5
         handle: >-
           Audio Description
@@ -500,7 +500,7 @@ chapters:
           Actuation-https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation
         alt_id: motion-actuation
         components:
-          - motion-actuation
+          - motion
   - id: success_criteria_level_aa
     label: "Table 2: Success Criteria, Level AA"
     short_label: AA
@@ -595,7 +595,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 2.4.6
+      - id: 2.4.6-c
         handle: Headings and Labels
         alt_id: headings-and-labels
         components:
@@ -1550,7 +1550,7 @@ components:
     label: Data Table Role
     description: >-
       https://ictbaseline.access-board.gov/web-baselines/12DataTables/#12a-test-procedure-for-data-table-roles
-  - id: data-table-role
+  - id: layout-table
     alt_id: 12.C
     label: Layout Table
     description: >-
@@ -1635,9 +1635,9 @@ components:
     label: Captions Prerecorded
     description: >-
       https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17d-test-procedure-for-captions-prerecorded
-  - id: ad-captions-prerecorded
+  - id: ad-prerecorded
     alt_id: 17.E
-    label: AD Captions Prerecorded
+    label: AD Prerecorded
     description: >-
       https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17e-test-procedure-for-audio-description-prerecorded
   - id: captions-live
@@ -1665,7 +1665,7 @@ components:
     label: iFrame Name
     description: >-
       https://ictbaseline.access-board.gov/web-baselines/19Frames/#19b-test-procedure-for-iframe-name
-  - id: coonforming-alt-version
+  - id: conforming-alt-version
     alt_id: 20.A
     label: Conforming Alt Version
     description: >-
