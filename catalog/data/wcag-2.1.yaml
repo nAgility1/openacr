@@ -134,7 +134,7 @@ chapters:
         handle: Non-text Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
         alt_id: non-text-content
         components:
-          - audible-queues
+          - audible-cues
       - id: 1.4.3-a
         handle: Contrast (Minimum)-https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum
         alt_id: visual-audio-contrast-contrast
@@ -168,7 +168,7 @@ chapters:
         alt_id: info-and-relationships
         components:
           - form-name
-      - id: 2.4.6
+      - id: 2.4.6-a
         handle: Headings and Labels-https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels
         alt_id: headings-and-labels
         components:
@@ -221,7 +221,7 @@ chapters:
         alt_id: info-and-relationships
         components:
           - data-table-header-association
-      - id: 2.4.6
+      - id: 2.4.6-b
         handle: Headings and Labels-https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels
         alt_id: headings-and-labels
         description: 13. Content Structure
@@ -232,7 +232,7 @@ chapters:
         alt_id: info-and-relationships
         components:
           - vis-heading-prog
-          - prog-heading-vis
+          - prog-heading-visual
           - list
       - id: 2.4.4
         handle: Link Purpose (In Context)-https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context
@@ -255,7 +255,7 @@ chapters:
         handle: Language of Parts-https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts
         alt_id: language-of-parts
         components:
-          - language-part
+          - language-parts
       - id: 1.2.1
         handle: Audio-only and Video-only (Prerecorded)-https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded
         alt_id: audio-only-and-video-only-prerecorded
@@ -285,7 +285,7 @@ chapters:
         handle: Captions (Prerecorded)-https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded
         alt_id: captions-prerecorded
         components:
-          - caption-prerecorded
+          - captions-prerecorded
       - id: 1.2.5
         handle: Audio Description (Prerecorded)-https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded
         alt_id: audio-description-prerecorded
@@ -385,7 +385,7 @@ chapters:
         handle: Motion Actuation-https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation
         alt_id: motion-actuation
         components:
-          - motion-actuation
+          - motion
   - id: success_criteria_level_aa
     label: "Table 2: Success Criteria, Level AA"
     short_label: AA
@@ -480,7 +480,7 @@ chapters:
           - electronic-docs
           - software
           - authoring-tool
-      - id: 2.4.6
+      - id: 2.4.6-c
         handle: Headings and Labels
         alt_id: headings-and-labels
         components:

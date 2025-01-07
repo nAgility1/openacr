@@ -154,7 +154,7 @@ components:
     alt_id: 12.A
     label: Data Table Role
     description: https://ictbaseline.access-board.gov/web-baselines/12DataTables/#12a-test-procedure-for-data-table-roles
-  - id: data-table-role
+  - id: layout-table
     alt_id: 12.C
     label: Layout Table
     description: https://ictbaseline.access-board.gov/web-baselines/12DataTables/#12c-test-procedure-for-layout-tables
@@ -222,9 +222,9 @@ components:
     alt_id: 17.D
     label: Captions Prerecorded
     description: https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17d-test-procedure-for-captions-prerecorded
-  - id: ad-captions-prerecorded
+  - id: ad-prerecorded
     alt_id: 17.E
-    label: AD Captions Prerecorded
+    label: AD Prerecorded
     description: https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17e-test-procedure-for-audio-description-prerecorded
   - id: captions-live
     alt_id: 17.F
@@ -246,7 +246,7 @@ components:
     alt_id: 19.B
     label: iFrame Name
     description: https://ictbaseline.access-board.gov/web-baselines/19Frames/#19b-test-procedure-for-iframe-name
-  - id: coonforming-alt-version
+  - id: conforming-alt-version
     alt_id: 20.A
     label: Conforming Alt Version
     description: https://ictbaseline.access-board.gov/web-baselines/20AlternateVersions/#20a-test-procedure-for-conforming-alternate-version
