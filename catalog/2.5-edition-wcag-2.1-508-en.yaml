@@ -1252,7 +1252,14 @@ components:
     alt-id: 1.C
     label: Key Shortcuts
     description: >-
-      https://ictbaseline.access-board.gov/web-baselines/01Keyboard/#1c-test-procedure-for-key-shortcuts
+      Test Instructions 1. Test each letter, punctuation, number, and symbol
+      character to ensure there are no keyboard shortcut customizations that
+      utilize only one key. A. If a single key shortcut is found, confirm one of
+      the following is true&#58;  —Turn off A mechanism is available to turn the
+      shortcut off; —Remap&#58; A mechanism is available to remap the shortcut
+      to include one or more non-printable keyboard keys (e.g., Ctrl, Alt);
+      —Active only on focus&#58; The keyboard shortcut for a user interface
+      component is only active when that component has focus.
   - id: focus-visible
     alt_id: 2.A
     label: Focus Visible
