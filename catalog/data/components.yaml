@@ -84,11 +84,15 @@ components:
   - id: label-in-name
     alt_id: 5.E
     label: Label in Name
-    description: https://ictbaseline.access-board.gov/web-baselines/05Controls/#5e-test-procedure-for-label-in-name
+    description: Test Instructions (ol)(li)Navigate to each user interface component that contains a label of either text or images of text.(eli)
+      (li)Verify the Name contains the text that is presented visually.(eli)(eol)
   - id: status-messages
     alt_id: 5.F
     label: Status Messages
-    description: https://ictbaseline.access-board.gov/web-baselines/05Controls/#5f-test-procedure-for-status-messages
+    description: Test Instructions (ol)(li)Identify any text messages that appear that do not take focus, these are called status messages.(eli)
+      (li)Review that the role is set to status for advisory notification (searching, 8 items found, 98% downloaded).(eli)
+      (li)If not an advisory status message, check if the message is a suggestion or warning and ensure that either role 'alert' or live regions are used along with some form of text description describing why the message occurred.(eli)
+      (li)If none of these are true, confirm the element isn't already covered by test 5.A-5.D before marking this element as failed.(eli)(eol)
   - id: meaningful-image
     alt_id: 6.A
     label: Meaningful Image
@@ -122,8 +126,10 @@ components:
     label: Contrast (Minimum)
     description: https://ictbaseline.access-board.gov/web-baselines/08Contrast/#8a-test-procedure-for-contrast-minimum
   - id: graphical-contrast
+    alt_id: 8.B
     label: Graphical Contrast
-    description: https://ictbaseline.access-board.gov/web-baselines/08Contrast/#8b-test-procedure-for-graphical-contrast
+    description: Test Instructions (ol)(li)Identify user interface components and meaningful graphical objects.(eli)
+      (li)Check the contrast ratio between the background and foreground elements is at least 3:1.(eli)(eol)
   - id: flashes
     alt_id: 9.A
     label: Flashes
@@ -159,7 +165,8 @@ components:
   - id: input-purpose
     alt_id: 10.H
     label: Input Purpose
-    description: https://ictbaseline.access-board.gov/web-baselines/10Forms/#10h-test-procedure-for-input-purpose
+    description: Test Instructions (ol)(li)Identify input fields requiring user interaction.(eli)
+      (li)Verify that the purpose of each input field can be programmatically determined (input type or autocomplete attribute is specified).(eli)(eol)
   - id: page-titled
     alt_id: 11.A
     label: Page Titled
@@ -287,15 +294,23 @@ components:
   - id: reflow
     alt_id: 22.B
     label: Reflow
-    description: https://ictbaseline.access-board.gov/web-baselines/22Resize/#22b-test-procedure-for-reflow
+    description: Test Instructions (ol)(li)Increase the content size by 200%.(eli)
+      (li)Verify that all content and functionality is still readable and usable.(eli)
+      (li)The page does not require scrolling both vertically and horizontally to see all content. (Unless 2D scrolling is required for meaning.)(eli)(eol)
   - id: orientation
     alt_id: 22.C
     label: Orientation
-    description: https://ictbaseline.access-board.gov/web-baselines/22Resize/#22c-test-procedure-for-orientation
+    description: Test Instructions (ol)(li)Increase the content size by 200%.(eli)
+      (li)Adjust the window from portrait to landscape or vice versus.(eli)
+      (li)Verify that content is not locked to a specific orientation.(eli)(eol)
   - id: text-spacing
     alt_id: 22.D
     label: TextSpacing
-    description: https://ictbaseline.access-board.gov/web-baselines/22Resize/#22d-test-procedure-for-text-spacing
+    description: Test Instructions (ol)(li)Adjust the CSS of the page to the following settings:(eli)
+      (ul)(li)Line height (line spacing) to at least 1.5 times the font size;(eli)
+      (li)Spacing following paragraphs to at least 2 times the font size;(eli)
+      (li)Letter spacing (tracking) to at least 0.12 times the font size;(eli)(eul)
+      (li)Verify that all content and functionality is still readable and usable.(eli)(eol)
   - id: multiple-ways
     alt_id: 23.A
     label: Multiple Ways
