@@ -8,6 +8,7 @@ standard:
     chapters:
       [
         success_criteria_level_a,
+        success_criteria_level_aa,
         success_criteria_level_aaa,
       ]
 chapters:
@@ -385,6 +386,19 @@ chapters:
         alt_id: motion-actuation
         components:
           - motion
+  - id: success_criteria_level_aa
+    label: "Table 2: Success Criteria, Level AA"
+    short_label: AA
+    order: 2
+    criteria:
+      - id: 0.0.0
+        handle: Sign Language (Prerecorded)
+        alt_id: sign-language-prerecorded
+        components:
+          - web
+          - electronic-docs
+          - software
+          - authoring-tool
   - id: success_criteria_level_aaa
     label: "Table 3: Success Criteria, Level AAA"
     short_label: AAA
