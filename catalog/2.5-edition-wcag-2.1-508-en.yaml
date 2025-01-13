@@ -7,7 +7,6 @@ standards:
     url: https://www.w3.org/TR/WCAG21/
     chapters:
       - success_criteria_level_a
-      - success_criteria_level_aa
       - success_criteria_level_aaa
   - id: "508"
     label: >-
@@ -503,16 +502,6 @@ chapters:
         alt_id: motion-actuation
         components:
           - motion
-  - id: success_criteria_level_aa
-    label: "Table 2: Success Criteria, Level AA"
-    short_label: AA
-    order: 2
-    criteria:
-      - id: 0.0.0
-        handle: Captions (Live)
-        alt_id: captions-live
-        components:
-          - web
   - id: success_criteria_level_aaa
     label: "Table 3: Success Criteria, Level AAA"
     short_label: AAA
