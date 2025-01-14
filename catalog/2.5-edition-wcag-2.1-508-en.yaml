@@ -509,13 +509,10 @@ chapters:
     order: 2
     criteria:
       - id: 0.0.0
-        handle: Sign Language (Prerecorded)
-        alt_id: sign-language-prerecorded
+        handle: None
+        alt_id: none
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - none
   - id: success_criteria_level_aaa
     label: "Table 3: Success Criteria, Level AAA"
     short_label: AAA
