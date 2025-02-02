@@ -2,12 +2,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createCatalog = void 0;
 const validateCatalog_1 = require("./validateCatalog");
-function createCatalog(catalog1, catalog2, components, terms, title, lang) {
+function createCatalog(catalogs, components, terms, title, lang) {
     return {
         title: title,
         lang: lang,
-        standards: getStandards(catalog1, catalog2),
-        chapters: getChapters(catalog1, catalog2),
+        standards: getStandards(catalogs),
+        chapters: getChapters(catalogs),
         components: getComponents(components),
         terms: getTerms(terms),
     };
@@ -20,37 +20,34 @@ function getTerms(terms) {
 }
 function getComponents(components) {
     if (validateCatalogDataFiles(components)) {
+        console.log("components.components", components.components);
         return components.components;
     }
 }
-function getChapters(first, second) {
-    if (first) {
-        if (validateCatalogDataFiles(first) && validateCatalogDataFiles(second)) {
-            return first.chapters.concat(second.chapters);
-        }
+function getChapters(catalogs) {
+    let chapters = [];
+    for (const index in catalogs) {
+        if (!validateCatalogDataFiles(catalogs[index]))
+            return;
+        chapters = chapters.concat(catalogs[index].chapters);
     }
-    else {
-        if (validateCatalogDataFiles(second)) {
-            return second.chapters;
-        }
-    }
+    return chapters;
 }
-function getStandards(first, second) {
-    if (first) {
-        if (validateCatalogDataFiles(first) && validateCatalogDataFiles(second)) {
-            return first.standard.concat(second.standard);
-        }
+function getStandards(catalogs) {
+    let standard = [];
+    for (const index in catalogs) {
+        if (!validateCatalogDataFiles(catalogs[index]))
+            return;
+        standard = standard.concat(catalogs[index].standard);
     }
-    else {
-        if (validateCatalogDataFiles(second)) {
-            return second.standard;
-        }
-    }
+    return standard;
 }
 function validateCatalogDataFiles(catalog) {
     const catalogSchema = "openacr-catalog-0.1.0.json";
     const validCatalogResult = validateCatalog_1.validateCatalog(catalog, catalogSchema);
+    // ** Expected to be true when valid.  **
     if (!validCatalogResult.result) {
+        console.error("Error: Invalid catalog data file: " + validCatalogResult.message);
         return false;
     }
     return true;

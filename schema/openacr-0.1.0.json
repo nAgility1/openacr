@@ -100,6 +100,10 @@
           "description": "Success criteria level A. Table/chapter 1 in all versions.",
           "$ref": "#/definitions/chapter"
         },
+        "success_criteria_level_aa": {
+          "description": "Success criteria level AA. Table/chapter 2 in all versions.",
+          "$ref": "#/definitions/chapter"
+        },
         "success_criteria_level_aaa": {
           "description": "Success criteria level AAA. Table/chapter 3 in all versions.",
           "$ref": "#/definitions/chapter"

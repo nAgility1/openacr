@@ -25,6 +25,7 @@ function getTerms(terms: any): any {
 
 function getComponents(components: any): any {
   if (validateCatalogDataFiles(components)) {
+    console.log("components.components", components.components);
     return components.components;
   }
 }
