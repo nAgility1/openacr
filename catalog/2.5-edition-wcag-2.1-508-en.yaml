@@ -1284,6 +1284,11 @@ components:
       additional content disappearing.(eli) (li)Persistent&#58; The additional
       content remains visible until the hover or focus trigger is removed, the
       user dismisses it, or its information is no longer valid.(eli)(eul)(eol)
+  - id: focus-not-obscured-minimum
+    alt_id: 2.E
+    description: >-
+      https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html
+    label: Focus Not Obscured (Minimum)
   - id: non-interference
     label: Non Interference
     alt_id: 3.A
@@ -1344,6 +1349,14 @@ components:
       why the message occurred.(eli) (li)If none of these are true, confirm the
       element isn't already covered by test 5.A-5.D before marking this element
       as failed.(eli)(eol)
+  - id: dragging-movements
+    alt_id: 5.G
+    label: Dragging Movements
+    description: https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html
+  - id: target-size
+    alt_id: 5.H
+    label: Target Size
+    description: https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html
   - id: meaningful-image
     alt_id: 6.A
     label: Meaningful Image
@@ -1431,9 +1444,18 @@ components:
     label: Error Prevention
     description: >-
       https://ictbaseline.access-board.gov/web-baselines/10Forms/#10g-test-procedure-for-error-prevention
-  - id: input-purpose
+  - id: accessbility-authentication-minimum
     alt_id: 10.H
-    label: Input Purpose
+    label: Redundant Entry
+    description: https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html
+  - id: accessbility-authentication-minimum
+    alt_id: 10.I
+    label: Acessibility Authentication (Minimum)
+    description: >-
+      https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html
+  - id: input-purpose
+    alt_id: 10.J
+    label: Identify Input Purpose
     description: >-
       Test Instructions (ol)(li)Identify input fields requiring user
       interaction.(eli) (li)Verify that the purpose of each input field can be
@@ -1479,6 +1501,10 @@ components:
     label: List
     description: >-
       https://ictbaseline.access-board.gov/web-baselines/13Structure/#13d-test-procedure-for-visually-apparent-lists
+  - id: consistent=help
+    alt_id: 13.E
+    label: Consistent Help
+    description: https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html
   - id: link-purpose
     alt_id: 14.A
     label: Link Purpose
