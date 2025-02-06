@@ -54,7 +54,7 @@ chapters:
         alt_id: content-on-hover-or-focus
         components:
           - content-on-hover-or-focus
-      - id: 2.4.11-a
+      - id: 2.4.11
         handle: Focus Not Obscured (Minimum)-https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum
         alt_id: focus-not-obscured-minimum
         components:
@@ -415,7 +415,7 @@ chapters:
         handle: Motion Actuation-https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation
         alt_id: motion-actuation
         components:
-          - motion
+          - motion-actuation
  - id: success_criteria_level_aaa
     label: "Table 3: Success Criteria, Level AAA"
     short_label: AAA
