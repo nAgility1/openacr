@@ -49,7 +49,7 @@ components:
       A mechanism is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an input error or does not obscure or replace other content.(eli)
       (li)Hoverable&#58; If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing.(eli)
       (li)Persistent&#58; The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.(eli)(eul)(eol)
- -  id: focus-not-obscured-minimum
+  - id: focus-not-obscured-minimum
     alt_id: 2.E
     description: https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html
     label: Focus Not Obscured (Minimum)

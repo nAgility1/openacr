@@ -8,7 +8,6 @@ standard:
     chapters:
       [
         success_criteria_level_a,
-        success_criteria_level_aa,
         success_criteria_level_aaa,
       ]
 chapters:
@@ -55,7 +54,7 @@ chapters:
         components:
           - content-on-hover-or-focus
       - id: 2.4.11
-        handle: Focus Not Obscured (Minimum)-https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum
+        handle: Focus Not Obscured Minimum-https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum
         alt_id: focus-not-obscured-minimum
         components:
           - focus-not-obscured-minimum
@@ -415,8 +414,8 @@ chapters:
         handle: Motion Actuation-https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation
         alt_id: motion-actuation
         components:
-          - motion-actuation
- - id: success_criteria_level_aaa
+          - motion
+  - id: success_criteria_level_aaa
     label: "Table 3: Success Criteria, Level AAA"
     short_label: AAA
     order: 3

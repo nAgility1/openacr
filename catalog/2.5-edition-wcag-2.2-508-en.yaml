@@ -7,7 +7,6 @@ standards:
     url: https://www.w3.org/TR/WCAG22/
     chapters:
       - success_criteria_level_a
-      - success_criteria_level_aa
       - success_criteria_level_aaa
   - id: "508"
     label: >-
@@ -22,458 +21,527 @@ standards:
       - support_documentation_and_services
 chapters:
   - id: success_criteria_level_a
-    label: "Table 1: Success Criteria, Level A"
-    short_label: A
+    label: "Table 1: Success Criteria, Level Web"
+    short_label: A-AA
     order: 1
     criteria:
-      - id: 1.1.1
-        handle: Non-text Content
-        alt_id: non-text-content
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.2.1
-        handle: Audio-only and Video-only (Prerecorded)
-        alt_id: audio-only-and-video-only-prerecorded
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.2.2
-        handle: Captions (Prerecorded)
-        alt_id: captions-prerecorded
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.2.3
-        handle: Audio Description or Media Alternative (Prerecorded)
-        alt_id: audio-description-or-media-alternative-prerecorded
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.3.1
-        handle: Info and Relationships
-        alt_id: info-and-relationships
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.3.2
-        handle: Meaningful Sequence
-        alt_id: meaningful-sequence
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.3.3
-        handle: Sensory Characteristics
-        alt_id: sensory-characteristics
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.4.1
-        handle: Use of Color
-        alt_id: use-of-color
-        components:
-          - color
-      - id: 1.4.2
-        handle: Audio Control
-        alt_id: audio-control
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
       - id: 2.1.1
-        handle: Keyboard
+        handle: Keyboard-https://www.w3.org/WAI/WCAG22/Understanding/keyboard
         alt_id: keyboard
+        description: 1. Keyboard Accessible
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - keyboard-access
       - id: 2.1.2
-        handle: No Keyboard Trap
+        handle: >-
+          No Keyboard
+          Trap-https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap
         alt_id: no-keyboard-trap
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - no-keyboard-trap
       - id: 2.1.4
-        handle: Character Key Shortcuts
+        handle: >-
+          Character Key
+          Shortcuts-https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts
         alt_id: character-key-shortcuts
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.2.1
-        handle: Timing Adjustable
-        alt_id: timing-adjustable
+          - key-shortcuts
+      - id: 2.4.7
+        handle: >-
+          Focus
+          Visible-https://www.w3.org/WAI/WCAG22/Understanding/focus-visible
+        alt_id: focus-visible
+        description: 2. Focus
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.2.2
-        handle: Pause, Stop, Hide
-        alt_id: pause-stop-hide
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.3.1
-        handle: Three Flashes or Below Threshold
-        alt_id: three-flashes-or-below-threshold
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.4.1
-        handle: Bypass Blocks
-        alt_id: bypass-blocks
-        components:
-          - bypass-blocks
-      - id: 2.4.2
-        handle: Page Titled
-        alt_id: page-titled
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - focus-visible
       - id: 2.4.3
-        handle: Focus Order
+        handle: Focus Order-https://www.w3.org/WAI/WCAG22/Understanding/focus-order
         alt_id: focus-order
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.4.4
-        handle: Link Purpose (In Context)
-        alt_id: link-purpose-in-context
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.5.1
-        handle: Pointer Gestures
-        alt_id: pointer-gestures
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.5.2
-        handle: Pointer Cancellation
-        alt_id: pointer-cancellation
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.5.3
-        handle: Label in Name
-        alt_id: label-in-name
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.5.4
-        handle: Motion Actuation
-        alt_id: motion-actuation
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.1.1
-        handle: Language of Page
-        alt_id: language-of-page
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - focus-order
       - id: 3.2.1
-        handle: On Focus
+        handle: On Focus-https://www.w3.org/WAI/WCAG22/Understanding/on-focus
         alt_id: on-focus
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.2.2
-        handle: On Input
-        alt_id: on-input
+          - on-focus
+      - id: 1.4.13-a
+        handle: >-
+          Content on Hover or
+          Focus-https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
+        alt_id: content-on-hover-or-focus
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.2.6
-        handle: Consistent Help
-        alt_id: consistent-help
+          - content-on-hover-or-focus
+      - id: 2.4.11
+        handle: >-
+          Focus Not Obscured
+          Minimum-https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum
+        alt_id: focus-not-obscured-minimum
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.3.1
-        handle: Error Identification
-        alt_id: error-identification
+          - focus-not-obscured-minimum
+      - id: Conformance Requirement 5
+        handle: >-
+          Non
+          Interference-https://www.w3.org/WAI/WCAG22/Understanding/conformance#conf-req5
+        alt_id: non-interference
+        description: 3. Non Interference
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.3.2
-        handle: Labels or Instructions
-        alt_id: labels-or-instructions
+          - non-interference
+      - id: 2.4.1
+        handle: >-
+          Bypass
+          Blocks-https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks
+        alt_id: bypass-blocks
+        description: 4. Repetitive Content
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.3.7
-        handle: Redundant Entry
-        alt_id: redundant-entry
+          - focus-visible
+          - bypass-blocks
+      - id: 3.2.3
+        handle: >-
+          Consistent
+          Navigation-https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation
+        alt_id: consistent-navigation
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 4.1.1
-        handle: Parsing
-        alt_id: parsing
+          - consistent-navigation
+      - id: 3.2.4
+        handle: >-
+          Consistent
+          Identification-https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification
+        alt_id: consistent-identification
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 4.1.2
-        handle: Name, Role, Value
+          - consistent-identification
+      - id: 1.4.13-b
+        handle: >-
+          Content on Hover or
+          Focus-https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus
+        alt_id: content-on-hover-or-focus
+        components:
+          - bypass-blocks
+      - id: 4.1.2-a
+        handle: >-
+          Name, Role,
+          Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
         alt_id: name-role-value
+        description: 5. User Controls
         components:
           - control-name
           - control-role
           - control-state
-          - contol-value
-          - meaningful-image
-  - id: success_criteria_level_aa
-    label: "Table 2: Success Criteria, Level AA"
-    short_label: AA
-    order: 2
-    criteria:
-      - id: 1.2.4
-        handle: Captions (Live)
-        alt_id: captions-live
+          - control-value
+      - id: 2.5.3
+        handle: >-
+          Label in
+          Name-https://www.w3.org/WAI/WCAG22/Understanding/label-in-name
+        alt_id: label-in-name
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.2.5
-        handle: Audio Description (Prerecorded)
-        alt_id: audio-description-prerecorded
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.3.4
-        handle: Orientation
-        alt_id: orientation
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.3.5
-        handle: Identify Input Purpose
-        alt_id: identify-input-purpose
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.4.3
-        handle: Contrast (Minimum)
-        alt_id: visual-audio-contrast-contrast
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.4.4
-        handle: Resize text
-        alt_id: visual-audio-contrast-scale
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.4.5
-        handle: Images of Text
-        alt_id: visual-audio-contrast-text-presentation
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.4.10
-        handle: Reflow
-        alt_id: reflow
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.4.11
-        handle: Non-text Contrast
-        alt_id: non-text-contrast
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.4.12
-        handle: Text Spacing
-        alt_id: text-spacing
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 1.4.13
-        handle: Content on Hover or Focus
-        alt_id: content-on-hover-or-focus
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.4.5
-        handle: Multiple Ways
-        alt_id: multiple-ways
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.4.6
-        handle: Headings and Labels
-        alt_id: headings-and-labels
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.4.7
-        handle: Focus Visible
-        alt_id: focus-visible
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.4.11
-        handle: Focus Not Obscured (Minimum)
-        alt_id: focus-not-obscured-minimum
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.5.7
-        handle: Dragging Movements
-        alt_id: dragging-movements
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 2.5.8
-        handle: Target Size (Minimum)
-        alt_id: target-size-minimum
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.1.2
-        handle: Language of Parts
-        alt_id: language-of-parts
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.2.3
-        handle: Consistent Navigation
-        alt_id: consistent-navigation
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.2.4
-        handle: Consistent Identification
-        alt_id: consistent-identification
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.3.3
-        handle: Error Suggestion
-        alt_id: error-suggestion
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.3.4
-        handle: Error Prevention (Legal, Financial, Data)
-        alt_id: error-prevention-legal-financial-data
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
-      - id: 3.3.8
-        handle: Accessible Authentication (Minimum)
-        alt_id: accessible-authentication-minimum
-        components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - label-in-name
       - id: 4.1.3
-        handle: Status Messages
+        handle: >-
+          Status
+          Messages-https://www.w3.org/WAI/WCAG22/Understanding/status-messages
         alt_id: status-messages
         components:
-          - web
-          - electronic-docs
-          - software
-          - authoring-tool
+          - status-messages
+      - id: 2.5.7
+        handle: >-
+          Dragging
+          Movements-https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html
+        alt_id: dragging-movements
+        components:
+          - dragging-movements
+      - id: 2.5.8
+        handle: >-
+          Target Size
+          (Minimum)-https://www.w3.org/TR/WCAG22/#target-size-minimum
+        alt_id: target-size-minimum
+        components:
+          - target-size-minimum
+      - id: 4.1.2-b
+        handle: >-
+          Name, Role,
+          Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+        alt_id: name-role-value
+        description: 6. Images
+        components:
+          - meaningful-image
+      - id: 1.1.1-a
+        handle: >-
+          Non-text
+          Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
+        alt_id: non-text-content
+        components:
+          - meaningful-image
+          - decorative-image
+          - captcha
+      - id: 1.4.5
+        handle: >-
+          Images of
+          Text-https://www.w3.org/WAI/WCAG22/Understanding/images-of-text
+        alt_id: visual-audio-contrast-text-presentation
+        components:
+          - image-text
+      - id: 1.4.1
+        handle: Use of Color-https://www.w3.org/WAI/WCAG22/Understanding/use-of-color
+        alt_id: use-of-color
+        description: 7. Sensory Characteristics
+        components:
+          - color
+      - id: 1.3.3
+        handle: >-
+          Sensory
+          Characteristics-https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics
+        alt_id: sensory-characteristics
+        components:
+          - sensory-characteristics
+      - id: 1.1.1-b
+        handle: >-
+          Non-text
+          Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
+        alt_id: non-text-content
+        components:
+          - audible-cues
+      - id: 1.4.3-a
+        handle: >-
+          Contrast
+          (Minimum)-https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum
+        alt_id: visual-audio-contrast-contrast
+        description: 8. Contrast
+        components:
+          - contrast-minimum
+      - id: 1.4.11-b
+        handle: >-
+          Non-text
+          Contrast-https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast
+        alt_id: non-text-contrast
+        components:
+          - graphical-contrast
+      - id: 2.3.1
+        handle: >-
+          Three Flashes or Below
+          Threshold-https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold
+        alt_id: three-flashes-or-below-threshold
+        description: 9. Flashing
+        components:
+          - flashes
+      - id: 1.1.1-c
+        handle: >-
+          Non-text
+          Content-https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
+        alt_id: non-text-content
+        description: 10. Forms
+        components:
+          - form-name
+      - id: 4.1.2-c
+        handle: >-
+          Name, Role,
+          Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+        alt_id: name-role-value
+        components:
+          - form-name
+      - id: 1.3.1-a
+        handle: >-
+          Info and
+          Relationships-https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships
+        alt_id: info-and-relationships
+        components:
+          - form-name
+      - id: 2.4.6-a
+        handle: >-
+          Headings and
+          Labels-https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels
+        alt_id: headings-and-labels
+        components:
+          - form-descriptive-label
+      - id: 3.2.2
+        handle: On Input-https://www.w3.org/WAI/WCAG22/Understanding/on-input
+        alt_id: on-input
+        components:
+          - on-input
+      - id: 3.3.1
+        handle: >-
+          Error
+          Identification-https://www.w3.org/WAI/WCAG22/Understanding/error-identification
+        alt_id: error-identification
+        components:
+          - error-identification
+      - id: 3.3.2
+        handle: >-
+          Labels or
+          Instructions-https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions
+        alt_id: labels-or-instructions
+        components:
+          - form-has-label
+      - id: 3.3.3
+        handle: >-
+          Error
+          Suggestion-https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion
+        alt_id: error-suggestion
+        components:
+          - error-suggestion
+      - id: 3.3.4
+        handle: >-
+          Error Prevention (Legal, Financial,
+          Data)-https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data
+        alt_id: error-prevention-legal-financial-data
+        components:
+          - error-prevention
+      - id: 3.3.7
+        handle: >-
+          Redundant
+          Entry-https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html
+        alt_id: redundant-entry
+        components:
+          - redundant-entry
+      - id: 3.3.8
+        handle: >-
+          Accessible Authentication
+          (Minimum)-https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum
+        alt_id: accessible-authentication-minimum
+        components:
+          - accessible-authentication-minimum
+      - id: 1.3.5-a
+        handle: >-
+          Identify Input
+          Purpose-https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose
+        alt_id: identify-input-purpose
+        components:
+          - input-purpose
+      - id: 2.4.2
+        handle: Page Titled-https://www.w3.org/WAI/WCAG22/Understanding/page-titled
+        alt_id: page-titled
+        description: 11. Page Titles
+        components:
+          - page-titled
+      - id: 4.1.2-d
+        handle: >-
+          Name, Role,
+          Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+        alt_id: name-role-value
+        description: 12. Tables
+        components:
+          - data-table-role
+          - layout-table
+      - id: 1.3.1-b
+        handle: >-
+          Info and
+          Relationships-https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships
+        alt_id: info-and-relationships
+        components:
+          - data-table-header-association
+      - id: 2.4.6-b
+        handle: >-
+          Headings and
+          Labels-https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels
+        alt_id: headings-and-labels
+        description: 13. Content Structure
+        components:
+          - heading-descriptive
+      - id: 1.3.1-c
+        handle: >-
+          Info and
+          Relationships-https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships
+        alt_id: info-and-relationships
+        components:
+          - vis-heading-prog
+          - prog-heading-visual
+          - list
+      - id: 3.2.6
+        handle: Consistent Help-https://www.w3.org/TR/WCAG22/#consistent-help
+        alt_id: consistent-help
+        components:
+          - consistent-help
+      - id: 2.4.4
+        handle: >-
+          Link Purpose (In
+          Context)-https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context
+        alt_id: link-purpose-in-context
+        description: 14. Links
+        components:
+          - link-purpose
+      - id: 4.1.2-e
+        handle: >-
+          Name, Role,
+          Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+        alt_id: name-role-value
+        components:
+          - link-purpose
+      - id: 3.1.1
+        handle: >-
+          Language of
+          Page-https://www.w3.org/WAI/WCAG22/Understanding/language-of-page
+        alt_id: language-of-page
+        description: 15. Language
+        components:
+          - language-page
+      - id: 3.1.2
+        handle: >-
+          Language of
+          Parts-https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts
+        alt_id: language-of-parts
+        components:
+          - language-parts
+      - id: 1.2.1
+        handle: >-
+          Audio-only and Video-only
+          (Prerecorded)-https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded
+        alt_id: audio-only-and-video-only-prerecorded
+        description: 16. Audio-Only and Video-Only
+        components:
+          - audio-only-transcript
+          - video-only-transcript
+          - audio-media-alternative
+          - video-media-alternative
+      - id: Section 508 503.4
+        handle: >-
+          User Controls for Captions and Audio
+          Description-https://www.federalregister.gov/d/2017-00395/p-630
+        alt_id: user-controls-for-captions-and-audio-description
+        description: 17. Synchronized Media
+        components:
+          - media-player-ccad-controls
+      - id: Section 508 503.4.1
+        handle: Caption Controls-https://www.federalregister.gov/d/2017-00395/p-631
+        alt_id: caption-controls
+        components:
+          - media-player-cc-level
+      - id: Section 508 503.4.2
+        handle: >-
+          Audio Description
+          Controls-https://www.federalregister.gov/d/2017-00395/p-632
+        alt_id: audio-description-controls
+        components:
+          - media-player-ad-level
+      - id: 1.2.2
+        handle: >-
+          Captions
+          (Prerecorded)-https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded
+        alt_id: captions-prerecorded
+        components:
+          - captions-prerecorded
+      - id: 1.2.5
+        handle: >-
+          Audio Description
+          (Prerecorded)-https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded
+        alt_id: audio-description-prerecorded
+        components:
+          - ad-prerecorded
+      - id: 1.2.4
+        handle: >-
+          Captions
+          (Live)-https://www.w3.org/WAI/WCAG22/Understanding/captions-live
+        alt_id: captions-live
+        components:
+          - captions-live
+      - id: 1.2.3
+        handle: >-
+          Audio Description or Media Alternative
+          (Prerecorded)-https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded
+        alt_id: audio-description-or-media-alternative-prerecorded
+        components:
+          - sync-media-alternative
+      - id: 1.3.2
+        handle: >-
+          Meaningful
+          Sequence-https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence
+        alt_id: meaningful-sequence
+        description: 18. CSS Positioning
+        components:
+          - css-positioned-content
+      - id: 4.1.2-f
+        handle: >-
+          Name, Role,
+          Value-https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+        alt_id: name-role-value
+        description: 19. Frames and iFrames
+        components:
+          - frame-title
+          - iframe-name
+      - id: 0.0.0
+        handle: >-
+          Conforming Alternate
+          Version-https://www.w3.org/WAI/WCAG22/Understanding/conformance#conforming-alt-versions
+        alt_id: conforming-alternate-version
+        description: 20. Conforming Alternate Version
+        components:
+          - conforming-alt-version
+      - id: 2.2.1
+        handle: >-
+          Timing
+          Adjustable-https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable
+        alt_id: timing-adjustable
+        description: 21. Timing Adjustable
+        components:
+          - timing-adjustable
+      - id: 2.2.2
+        handle: >-
+          Pause, Stop,
+          Hide-https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide
+        alt_id: pause-stop-hide
+        components:
+          - moving-info
+          - auto-update
+      - id: 1.4.2
+        handle: >-
+          Audio
+          Control-https://www.w3.org/WAI/WCAG22/Understanding/audio-control
+        alt_id: audio-control
+        components:
+          - audio-control
+      - id: 1.4.4
+        handle: Resize text-https://www.w3.org/WAI/WCAG22/Understanding/resize-text
+        alt_id: visual-audio-contrast-scale
+        description: 22. Resize Text
+        components:
+          - resize-text
+      - id: 1.4.10-b
+        handle: Reflow-https://www.w3.org/WAI/WCAG22/Understanding/reflow
+        alt_id: reflow
+        components:
+          - reflow
+      - id: 1.3.4-a
+        handle: Orientation-https://www.w3.org/WAI/WCAG22/Understanding/orientation
+        alt_id: orientation
+        components:
+          - orientation
+      - id: 1.4.12-a
+        handle: Text Spacing-https://www.w3.org/WAI/WCAG22/Understanding/text-spacing
+        alt_id: text-spacing
+        components:
+          - text-spacing
+      - id: 2.4.5
+        handle: >-
+          Multiple
+          Ways-https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways
+        alt_id: multiple-ways
+        description: 23. Multiple Ways
+        components:
+          - multiple-ways
+      - id: 4.1.1
+        handle: Parsing-https://www.w3.org/WAI/WCAG22/Understanding/parsing
+        alt_id: parsing
+        description: 24. Parsing
+        components:
+          - parsing
+      - id: 2.5.1
+        handle: >-
+          Pointer
+          Gestures-https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures
+        alt_id: pointer-gestures
+        description: 25. Pointer Gestures
+        components:
+          - pointer-gestures
+      - id: 2.5.2
+        handle: >-
+          Pointer
+          Cancellation-https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation
+        alt_id: pointer-cancellation
+        components:
+          - pointer-cancellation
+      - id: 2.5.4
+        handle: >-
+          Motion
+          Actuation-https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation
+        alt_id: motion-actuation
+        components:
+          - motion
   - id: success_criteria_level_aaa
     label: "Table 3: Success Criteria, Level AAA"
     short_label: AAA
@@ -1246,6 +1314,7 @@ components:
   - id: key-shortcuts
     alt-id: 1.C
     label: Key Shortcuts
+    description: "Test Instructions (ol)(li)Test each letter, punctuation, number, and symbol character to ensure there are no keyboard shortcut customizations that utilize only one key.(eli) (li)If a single key shortcut is found, confirm one of the following is true&#58;(eli)  (ul)(li)Turn off&#58; A mechanism is available to turn the shortcut off. (eli)(li)Remap&#58; A mechanism is available to remap the shortcut to include one or more non-printable keyboard keys (e.g., Ctrl, Alt). (eli)(li)Active only on focus&#58; The keyboard shortcut for a user interface component is only active when that component has focus.\t(eli)(eul)(eol)"
   - id: focus-visible
     alt_id: 2.A
     label: Focus Visible
@@ -1254,6 +1323,8 @@ components:
   - id: focus-order
     alt_id: 2.B
     label: Focus Order
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/02FocusVisible/#2b-test-procedure-for-focus-order
   - id: on-focus
     alt_id: 2.C
     description: >-
@@ -1263,7 +1334,25 @@ components:
     alt_id: 2.D
     label: Content on Hover or Focus
     description: >-
-      https://ictbaseline.access-board.gov/web-baselines/02FocusVisible/#2c-test-procedure-for-on-focus
+      Test Instructions (ol)(li)Use the keyboard to move focus to and navigate
+      through each interactive element that reveals additional content while
+      remaining on the same page (additional content includes drop-down lists,
+      tooltips, etc.).(eli) (li)Check that when focus reveals content the
+      following is true&#58;(eli)  (ul)(li)Turn off&#58; A mechanism is
+      available to turn the shortcut off. (eli)(li)Dismissible&#58; A mechanism
+      is available to dismiss the additional content without moving pointer
+      hover or keyboard focus, unless the additional content communicates an
+      input error or does not obscure or replace other content.(eli)
+      (li)Hoverable&#58; If pointer hover can trigger the additional content,
+      then the pointer can be moved over the additional content without the
+      additional content disappearing.(eli) (li)Persistent&#58; The additional
+      content remains visible until the hover or focus trigger is removed, the
+      user dismisses it, or its information is no longer valid.(eli)(eul)(eol)
+  - id: focus-not-obscured-minimum
+    alt_id: 2.E
+    description: >-
+      https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html
+    label: Focus Not Obscured (Minimum)
   - id: non-interference
     label: Non Interference
     alt_id: 3.A
@@ -1308,50 +1397,338 @@ components:
     alt_id: 5.E
     label: Label in Name
     description: >-
-      https://ictbaseline.access-board.gov/web-baselines/05Controls/#5e-test-procedure-for-label-in-name
+      Test Instructions (ol)(li)Navigate to each user interface component that
+      contains a label of either text or images of text.(eli) (li)Verify the
+      Name contains the text that is presented visually.(eli)(eol)
   - id: status-messages
     alt_id: 5.F
     label: Status Messages
     description: >-
-      https://ictbaseline.access-board.gov/web-baselines/05Controls/#5f-test-procedure-for-status-messages
+      Test Instructions (ol)(li)Identify any text messages that appear that do
+      not take focus, these are called status messages.(eli) (li)Review that the
+      role is set to status for advisory notification (searching, 8 items found,
+      98% downloaded).(eli) (li)If not an advisory status message, check if the
+      message is a suggestion or warning and ensure that either role 'alert' or
+      live regions are used along with some form of text description describing
+      why the message occurred.(eli) (li)If none of these are true, confirm the
+      element isn't already covered by test 5.A-5.D before marking this element
+      as failed.(eli)(eol)
+  - id: dragging-movements
+    alt_id: 5.G
+    label: Dragging Movements
+    description: https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html
+  - id: target-size
+    alt_id: 5.H
+    label: Target Size
+    description: https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html
   - id: meaningful-image
+    alt_id: 6.A
     label: Meaningful Image
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/06Images/#6a-test-procedure-for-images-with-a-non-empty-text-alternative
   - id: decorative-image
+    alt_id: 6.B
     label: Decorative Image
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/06Images/#6b-test-procedure-for-images-with-an-empty-text-alternative
   - id: captcha
+    alt_id: 6.C
     label: CAPTCHA
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/06Images/#6c-test-procedure-for-captchas
   - id: image-text
+    alt_id: 6.D
     label: Image Text
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/06Images/#6d-test-procedure-for-images-of-text
   - id: color
+    alt_id: 7.A
     label: Color
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/07Sensory/#7a-test-procedure-for-use-of-color
   - id: sensory-characteristics
+    alt_id: 7.B
     label: Sensory Characteristics
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/07Sensory/#7b-test-procedure-for-sensory-characteristics
   - id: audible-cues
+    alt_id: 7.C
     label: Audible Cues
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/07Sensory/#7c-test-procedure-for-audible-cues
   - id: contrast-minimum
+    alt_id: 8.A
     label: Contrast (Minimum)
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/08Contrast/#8a-test-procedure-for-contrast-minimum
   - id: graphical-contrast
+    alt_id: 8.B
     label: Graphical Contrast
+    description: >-
+      Test Instructions (ol)(li)Identify user interface components and
+      meaningful graphical objects.(eli) (li)Check the contrast ratio between
+      the background and foreground elements is at least 3:1.(eli)(eol)
   - id: flashes
+    alt_id: 9.A
     label: Flashes
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/09Flashing/#9a-test-procedure-for-three-flashes-or-below-threshold
   - id: form-name
+    alt_id: 10.A
     label: Form Name
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10a-test-procedure-for-form-name
   - id: form-descriptive-label
+    alt_id: 10.B
     label: Form Descriptive Label
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10b-test-procedure-for-form-descriptive-label
   - id: on-input
+    alt_id: 10.C
     label: On Input
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10c-test-procedure-for-on-input
   - id: error-identification
+    alt_id: 10.D
     label: Error Identification
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10d-test-procedure-for-error-identification
   - id: form-has-label
+    alt_id: 10.E
     label: Form Has Label
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10e-test-procedure-for-form-has-label
   - id: error-suggestion
+    alt_id: 10.F
     label: Error Suggestion
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10f-test-procedure-for-error-suggestion
   - id: error-prevention
+    alt_id: 10.G
     label: Error Prevention
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/10Forms/#10g-test-procedure-for-error-prevention
+  - id: accessbility-authentication-minimum
+    alt_id: 10.H
+    label: Redundant Entry
+    description: https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html
+  - id: accessbility-authentication-minimum
+    alt_id: 10.I
+    label: Acessibility Authentication (Minimum)
+    description: >-
+      https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html
   - id: input-purpose
-    label: Input Purpose
+    alt_id: 10.J
+    label: Identify Input Purpose
+    description: >-
+      Test Instructions (ol)(li)Identify input fields requiring user
+      interaction.(eli) (li)Verify that the purpose of each input field can be
+      programmatically determined (input type or autocomplete attribute is
+      specified).(eli)(eol)
   - id: page-titled
+    alt_id: 11.A
     label: Page Titled
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/11PageTitles/#11a-test-procedure-for-page-titled
+  - id: data-table-role
+    alt_id: 12.A
+    label: Data Table Role
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/12DataTables/#12a-test-procedure-for-data-table-roles
+  - id: layout-table
+    alt_id: 12.C
+    label: Layout Table
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/12DataTables/#12c-test-procedure-for-layout-tables
+  - id: data-table-header-association
+    alt_id: 12.B
+    label: Data Table Header Association
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/12DataTables/#12b-test-procedure-for-data-table-header-association
+  - id: heading-descriptive
+    alt_id: 13.A
+    label: Heading Descriptive
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/13Structure/#13a-test-procedure-for-descriptive-headings
+  - id: vis-heading-prog
+    alt_id: 13.B
+    label: Vis Heading Prog
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/13Structure/#13b-test-procedure-for-visual-headings-programmatic
+  - id: prog-heading-visual
+    alt_id: 13.C
+    label: Prog Heading Visual
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/13Structure/#13c-test-procedure-for-programmatic-headings-visual
+  - id: list
+    alt_id: 13.D
+    label: List
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/13Structure/#13d-test-procedure-for-visually-apparent-lists
+  - id: consistent=help
+    alt_id: 13.E
+    label: Consistent Help
+    description: https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html
+  - id: link-purpose
+    alt_id: 14.A
+    label: Link Purpose
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/14Links/#14a-test-procedure-for-link-purpose-in-context
+  - id: language-page
+    alt_id: 15.A
+    label: Language of Page
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/15Language/#15a-test-procedure-for-language-of-page
+  - id: language-parts
+    alt_id: 15.B
+    label: Language of Parts
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/15Language/#15b-test-procedure-for-language-of-parts
+  - id: audio-only-transcript
+    alt_id: 16.A
+    label: Audio-Only Transcript
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16a-test-procedure-for-audio-only-prerecorded
+  - id: video-only-transcript
+    alt_id: 16.B
+    label: Video-Only Alt
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16b-test-procedure-for-video-only-prerecorded
+  - id: audio-media-alternative
+    alt_id: 16.C
+    label: Audeo-Media Alternative
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16c-test-procedure-for-audio-media-alternative-prerecorded
+  - id: video-media-alternative
+    alt_id: 16.D
+    label: Video-Media Alternative
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/16AudioVideo/#16d-test-procedure-for-video-media-alternative-prerecorded
+  - id: media-player-ccad-controls
+    alt_id: 17.A
+    label: Media Player CCAD Controls
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17a-test-procedure-for-media-player-controls
+  - id: media-player-cc-level
+    alt_id: 17.B
+    label: Media Player CC Level
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17b-test-procedure-for-media-player-caption-control-level
+  - id: media-player-ad-level
+    alt_id: 17.C
+    label: Media Player AD Level
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17c-test-procedure-for-media-player-audio-description-control-level
+  - id: captions-prerecorded
+    alt_id: 17.D
+    label: Captions Prerecorded
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17d-test-procedure-for-captions-prerecorded
+  - id: ad-prerecorded
+    alt_id: 17.E
+    label: AD Prerecorded
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17e-test-procedure-for-audio-description-prerecorded
+  - id: captions-live
+    alt_id: 17.F
+    label: Captions Live
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17f-test-procedure-for-captions-live
+  - id: sync-media-alternative
+    alt_id: 17.G
+    label: Sync Media Alternative
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/17SyncMedia/#17g-test-procedure-for-sync-media-alternative-prerecorded
+  - id: css-positioned-content
+    alt_id: 18.B
+    label: CSS Positioned Content
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/18Stylesheet/#18b-test-procedure-for-css-positioned-content
+  - id: frame-title
+    alt_id: 19.A
+    label: Frame Title
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/19Frames/#19a-test-procedure-for-frames
+  - id: iframe-name
+    alt_id: 19.B
+    label: iFrame Name
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/19Frames/#19b-test-procedure-for-iframe-name
+  - id: conforming-alt-version
+    alt_id: 20.A
+    label: Conforming Alt Version
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/20AlternateVersions/#20a-test-procedure-for-conforming-alternate-version
+  - id: timing-adjustable
+    alt_id: 21.A
+    label: Timing Adjustable
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/#21a-test-procedure-for-timing-adjustable
+  - id: moving-info
+    alt_id: 21.B
+    label: Moving Info
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/#21b-test-procedure-for-moving-information
+  - id: auto-update
+    alt_id: 21.C
+    label: Auto Update
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/#21c-test-procedure-for-auto-updating-information
+  - id: audio-control
+    alt_id: 21.D
+    label: Audio Control
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/#21d-test-procedure-for-audio-control
+  - id: resize-text
+    alt_id: 22.A
+    label: Resize Text
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/22Resize/#22a-test-procedure-for-resize-text
+  - id: reflow
+    alt_id: 22.B
+    label: Reflow
+    description: >-
+      Test Instructions (ol)(li)Increase the content size by 200%.(eli)
+      (li)Verify that all content and functionality is still readable and
+      usable.(eli) (li)The page does not require scrolling both vertically and
+      horizontally to see all content. (Unless 2D scrolling is required for
+      meaning.)(eli)(eol)
+  - id: orientation
+    alt_id: 22.C
+    label: Orientation
+    description: >-
+      Test Instructions (ol)(li)Increase the content size by 200%.(eli)
+      (li)Adjust the window from portrait to landscape or vice versus.(eli)
+      (li)Verify that content is not locked to a specific orientation.(eli)(eol)
+  - id: text-spacing
+    alt_id: 22.D
+    label: TextSpacing
+    description: >-
+      Test Instructions (ol)(li)Adjust the CSS of the page to the following
+      settings:(eli) (ul)(li)Line height (line spacing) to at least 1.5 times
+      the font size;(eli) (li)Spacing following paragraphs to at least 2 times
+      the font size;(eli) (li)Letter spacing (tracking) to at least 0.12 times
+      the font size;(eli)(eul) (li)Verify that all content and functionality is
+      still readable and usable.(eli)(eol)
+  - id: multiple-ways
+    alt_id: 23.A
+    label: Multiple Ways
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/23MultipleWays/#23a-test-procedure-for-related-web-pages
+  - id: parsing
+    alt_id: 24.A
+    label: Parsing
+    description: >-
+      https://ictbaseline.access-board.gov/web-baselines/24Parsing/#24a-test-procedure-for-parsing
+  - id: pointer-gestures
+    alt_id: 25.A
+    label: Pointer Gestures
+  - id: pointer-cancellation
+    alt_id: 25.B
+    label: Pointer Cancellation
+  - id: motion
+    alt_id: 25.C
+    label: Motion
   - id: none
     label: ""
 terms:
