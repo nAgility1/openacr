@@ -8,12 +8,11 @@ standard:
     chapters:
       [
         success_criteria_level_a,
-        success_criteria_level_aa,
         success_criteria_level_aaa,
       ]
 chapters:
   - id: success_criteria_level_a
-    label: "Table 1: Success Criteria, Level A"
+    label: "Table 1: Success Criteria, Level A-AA"
     short_label: "A-AA"
     order: 1
     criteria:
