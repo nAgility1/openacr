@@ -12,7 +12,7 @@ standard:
       ]
 chapters:
   - id: success_criteria_level_a
-    label: "Table 1: Success Criteria, Level Web"
+    label: "Table 1: Success Criteria, Level A-AA"
     short_label: A-AA
     order: 1
     criteria:
@@ -53,7 +53,7 @@ chapters:
         alt_id: content-on-hover-or-focus
         components:
           - content-on-hover-or-focus
-      - id: Conformance Requirement 5
+      - id: 5
         handle: Non Interference-https://www.w3.org/WAI/WCAG22/Understanding/conformance#conf-req5
         alt_id: non-interference
         description: 3. Non Interference

@@ -12,7 +12,7 @@ standard:
       ]
 chapters:
   - id: success_criteria_level_a
-    label: "Table 1: Success Criteria, Level Web"
+    label: "Table 1: Success Criteria, Level A-AA"
     short_label: A-AA
     order: 1
     criteria:
