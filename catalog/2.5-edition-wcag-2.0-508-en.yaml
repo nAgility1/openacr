@@ -1140,7 +1140,7 @@ components:
     alt_id: 5.G
     label: Dragging Movements
     description: https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html
-  - id: target-size
+  - id: target-size-minimum
     alt_id: 5.H
     label: Target Size
     description: https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html
@@ -1231,11 +1231,11 @@ components:
     label: Error Prevention
     description: >-
       https://ictbaseline.access-board.gov/web-baselines/10Forms/#10g-test-procedure-for-error-prevention
-  - id: accessbility-authentication-minimum
+  - id: redundant-entry
     alt_id: 10.H
     label: Redundant Entry
     description: https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html
-  - id: accessbility-authentication-minimum
+  - id: accessible-authentication-minimum
     alt_id: 10.I
     label: Acessibility Authentication (Minimum)
     description: >-
@@ -1288,7 +1288,7 @@ components:
     label: List
     description: >-
       https://ictbaseline.access-board.gov/web-baselines/13Structure/#13d-test-procedure-for-visually-apparent-lists
-  - id: consistent=help
+  - id: consistent-help
     alt_id: 13.E
     label: Consistent Help
     description: https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html

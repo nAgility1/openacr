@@ -58,7 +58,7 @@ chapters:
         alt_id: focus-not-obscured-minimum
         components:
           - focus-not-obscured-minimum
-      - id: 5
+      - id: 5.0.0
         handle: Non Interference-https://www.w3.org/WAI/WCAG22/Understanding/conformance#conf-req5
         alt_id: non-interference
         description: 3. Non Interference
@@ -294,18 +294,18 @@ chapters:
           - video-only-transcript
           - audio-media-alternative
           - video-media-alternative
-      - id: Section 508 503.4
+      - id: 503.4.0
         handle: User Controls for Captions and Audio Description-https://www.federalregister.gov/d/2017-00395/p-630
         alt_id: user-controls-for-captions-and-audio-description
         description:  17. Synchronized Media
         components:
           - media-player-ccad-controls
-      - id: Section 508 503.4.1
+      - id: 503.4.1
         handle: Caption Controls-https://www.federalregister.gov/d/2017-00395/p-631
         alt_id: caption-controls
         components:
           - media-player-cc-level
-      - id: Section 508 503.4.2
+      - id: 503.4.2
         handle: Audio Description Controls-https://www.federalregister.gov/d/2017-00395/p-632
         alt_id: audio-description-controls
         components:
