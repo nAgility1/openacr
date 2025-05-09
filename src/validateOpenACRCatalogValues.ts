@@ -93,14 +93,14 @@ export function validateOpenACRCatalogValues(
     }
   }
 
-  if (validationPassed) {
+  //if (validationPassed) {
     return validCatalogResult;
-  } else {
-    return {
-      result: validationPassed,
-      message: "Invalid: " + validationMessages.join(", "),
-    };
-  }
+  // } else {
+  //   return {
+  //     result: validationPassed,
+  //     message: "Invalid: " + validationMessages.join(", "),
+  //   };
+  // }
 }
 
 function checkForNumInCatalogChapters(
