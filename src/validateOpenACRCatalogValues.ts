@@ -93,8 +93,9 @@ export function validateOpenACRCatalogValues(
     }
   }
 
-  //if (validationPassed) {
-    return validCatalogResult;
+  // Avoid displaying errors on the report page
+  // if (validationPassed) {
+  return validCatalogResult;
   // } else {
   //   return {
   //     result: validationPassed,
